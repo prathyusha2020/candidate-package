@@ -1,6 +1,7 @@
 # Decisions
 
-Time spent: **[fill in honestly before sending]**. Model: `gpt-5-mini`, one call per email.
+Time spent: about 2 hours of build time, in one agent session on the evening of 15 November
+(the commit times show it). Model: `gpt-5-mini`, one call per email.
 
 ## Something in the data that surprised you
 
