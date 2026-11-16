@@ -1,0 +1,34 @@
+{
+ "answer": {
+  "classification": "rfq",
+  "needs_review": false,
+  "review_reason": null,
+  "line_items": [
+   {
+    "raw": "5 ea - 4\" 150# RF blind flange, A105",
+    "description": "4\" blind flange, 150# RF, A105",
+    "qty": 5,
+    "uom": "EA",
+    "source": "body"
+   },
+   {
+    "raw": "5 ea - 4\" 150# spiral wound gasket, 304/graphite",
+    "description": "4\" spiral wound gasket, 150#, 304/graphite",
+    "qty": 5,
+    "uom": "EA",
+    "source": "body"
+   }
+  ]
+ },
+ "meta": {
+  "model": "gpt-5-mini",
+  "usage": {
+   "prompt_tokens": 1693,
+   "completion_tokens": 436,
+   "prompt_tokens_details": {
+    "cached_tokens": 1536
+   }
+  },
+  "usd": 0.00095
+ }
+}

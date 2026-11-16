@@ -1,0 +1,19 @@
+{
+ "answer": {
+  "classification": "vendor_quote",
+  "needs_review": false,
+  "review_reason": null,
+  "line_items": []
+ },
+ "meta": {
+  "model": "gpt-5-mini",
+  "usage": {
+   "prompt_tokens": 1709,
+   "completion_tokens": 235,
+   "prompt_tokens_details": {
+    "cached_tokens": 1536
+   }
+  },
+  "usd": 0.000552
+ }
+}

@@ -1,123 +1,123 @@
 {
   "total": {
-    "calls": 0,
-    "prompt_tokens": 57142,
-    "completion_tokens": 37497,
-    "usd": 0.087638,
+    "calls": 23,
+    "prompt_tokens": 57405,
+    "completion_tokens": 39529,
+    "usd": 0.084624,
     "emails": 24,
-    "cache_hits": 23,
+    "cache_hits": 0,
     "failed": 0,
     "model": "gpt-5-mini",
     "note": "usd/tokens = what each answer cost when it was first made; calls = model calls made by THIS run"
   },
   "emails": {
     "E001": {
-      "calls": 0,
-      "cached": true,
+      "calls": 1,
+      "cached": false,
       "prompt_tokens": 1890,
-      "completion_tokens": 986,
-      "usd": 0.002128,
+      "completion_tokens": 1432,
+      "usd": 0.002933,
       "model": "gpt-5-mini",
-      "seconds": 0.07
+      "seconds": 19.24
     },
     "E002": {
-      "calls": 0,
-      "cached": true,
+      "calls": 1,
+      "cached": false,
       "prompt_tokens": 1705,
-      "completion_tokens": 1888,
-      "usd": 0.004202,
+      "completion_tokens": 1632,
+      "usd": 0.003345,
       "model": "gpt-5-mini",
-      "seconds": 0.07
+      "seconds": 21.68
     },
     "E003": {
-      "calls": 0,
-      "cached": true,
+      "calls": 1,
+      "cached": false,
       "prompt_tokens": 1807,
-      "completion_tokens": 966,
-      "usd": 0.002067,
+      "completion_tokens": 1285,
+      "usd": 0.002647,
       "model": "gpt-5-mini",
-      "seconds": 0.06
+      "seconds": 17.14
     },
     "E004": {
-      "calls": 0,
-      "cached": true,
+      "calls": 1,
+      "cached": false,
       "prompt_tokens": 2197,
-      "completion_tokens": 1865,
-      "usd": 0.003934,
+      "completion_tokens": 2313,
+      "usd": 0.004714,
       "model": "gpt-5-mini",
-      "seconds": 0.12
+      "seconds": 30.46
     },
     "E005": {
-      "calls": 0,
-      "cached": true,
+      "calls": 1,
+      "cached": false,
       "prompt_tokens": 1913,
-      "completion_tokens": 1464,
-      "usd": 0.003089,
+      "completion_tokens": 1974,
+      "usd": 0.004023,
       "model": "gpt-5-mini",
-      "seconds": 0.09
+      "seconds": 25.88
     },
     "E006": {
-      "calls": 0,
-      "cached": true,
-      "prompt_tokens": 5279,
-      "completion_tokens": 3596,
-      "usd": 0.008512,
+      "calls": 1,
+      "cached": false,
+      "prompt_tokens": 5326,
+      "completion_tokens": 5529,
+      "usd": 0.012015,
       "model": "gpt-5-mini",
-      "seconds": 0.12
+      "seconds": 66.5
     },
     "E007": {
-      "calls": 0,
-      "cached": true,
-      "prompt_tokens": 2585,
-      "completion_tokens": 1584,
-      "usd": 0.003814,
+      "calls": 1,
+      "cached": false,
+      "prompt_tokens": 2604,
+      "completion_tokens": 1919,
+      "usd": 0.004489,
       "model": "gpt-5-mini",
-      "seconds": 0.08
+      "seconds": 25.39
     },
     "E008": {
-      "calls": 0,
-      "cached": true,
-      "prompt_tokens": 5290,
-      "completion_tokens": 5470,
-      "usd": 0.011917,
+      "calls": 1,
+      "cached": false,
+      "prompt_tokens": 5337,
+      "completion_tokens": 4552,
+      "usd": 0.010064,
       "model": "gpt-5-mini",
-      "seconds": 0.11
+      "seconds": 53.61
     },
     "E009": {
-      "calls": 0,
-      "cached": true,
-      "prompt_tokens": 5407,
-      "completion_tokens": 3398,
-      "usd": 0.008148,
+      "calls": 1,
+      "cached": false,
+      "prompt_tokens": 5450,
+      "completion_tokens": 4347,
+      "usd": 0.009682,
       "model": "gpt-5-mini",
-      "seconds": 0.19
+      "seconds": 51.42
     },
     "E010": {
-      "calls": 0,
-      "cached": true,
-      "prompt_tokens": 1901,
-      "completion_tokens": 1558,
-      "usd": 0.003591,
+      "calls": 1,
+      "cached": false,
+      "prompt_tokens": 1934,
+      "completion_tokens": 1303,
+      "usd": 0.002715,
       "model": "gpt-5-mini",
-      "seconds": 0.11
+      "seconds": 19.06
     },
     "E011": {
-      "calls": 0,
-      "cached": true,
+      "calls": 1,
+      "cached": false,
       "prompt_tokens": 2025,
-      "completion_tokens": 161,
-      "usd": 0.000828,
+      "completion_tokens": 171,
+      "usd": 0.000416,
       "model": "gpt-5-mini",
-      "seconds": 0.1
+      "seconds": 3.35
     },
     "E012": {
-      "calls": 0,
-      "cached": true,
-      "prompt_tokens": 1912,
-      "completion_tokens": 236,
-      "usd": 0.00095,
+      "calls": 1,
+      "cached": false,
+      "prompt_tokens": 1929,
+      "completion_tokens": 98,
+      "usd": 0.000275,
       "model": "gpt-5-mini",
-      "seconds": 0.1
+      "seconds": 2.63
     },
     "E013": {
       "calls": 0,
@@ -126,106 +126,106 @@
       "completion_tokens": 0,
       "usd": 0.0,
       "note": "auto_reply by headers",
-      "seconds": 0.03
+      "seconds": 0.01
     },
     "E014": {
-      "calls": 0,
-      "cached": true,
+      "calls": 1,
+      "cached": false,
       "prompt_tokens": 1887,
-      "completion_tokens": 106,
-      "usd": 0.000684,
+      "completion_tokens": 96,
+      "usd": 0.000261,
       "model": "gpt-5-mini",
-      "seconds": 0.08
+      "seconds": 2.08
     },
     "E015": {
-      "calls": 0,
-      "cached": true,
-      "prompt_tokens": 3435,
-      "completion_tokens": 1393,
-      "usd": 0.003645,
+      "calls": 1,
+      "cached": false,
+      "prompt_tokens": 3456,
+      "completion_tokens": 1553,
+      "usd": 0.003596,
       "model": "gpt-5-mini",
-      "seconds": 0.13
+      "seconds": 18.8
     },
     "E016": {
-      "calls": 0,
-      "cached": true,
+      "calls": 1,
+      "cached": false,
       "prompt_tokens": 1984,
-      "completion_tokens": 1317,
-      "usd": 0.00313,
+      "completion_tokens": 1000,
+      "usd": 0.002064,
       "model": "gpt-5-mini",
-      "seconds": 0.08
+      "seconds": 12.5
     },
     "E017": {
-      "calls": 0,
-      "cached": true,
-      "prompt_tokens": 1757,
-      "completion_tokens": 255,
-      "usd": 0.000949,
+      "calls": 1,
+      "cached": false,
+      "prompt_tokens": 1774,
+      "completion_tokens": 186,
+      "usd": 0.000441,
       "model": "gpt-5-mini",
-      "seconds": 0.09
+      "seconds": 3.3
     },
     "E018": {
-      "calls": 0,
-      "cached": true,
+      "calls": 1,
+      "cached": false,
       "prompt_tokens": 1827,
-      "completion_tokens": 1596,
-      "usd": 0.003649,
+      "completion_tokens": 1215,
+      "usd": 0.002512,
       "model": "gpt-5-mini",
-      "seconds": 0.08
+      "seconds": 14.66
     },
     "E019": {
-      "calls": 0,
-      "cached": true,
+      "calls": 1,
+      "cached": false,
       "prompt_tokens": 1848,
-      "completion_tokens": 1442,
-      "usd": 0.003346,
+      "completion_tokens": 1240,
+      "usd": 0.002539,
       "model": "gpt-5-mini",
-      "seconds": 0.15
+      "seconds": 15.75
     },
     "E020": {
-      "calls": 0,
-      "cached": true,
+      "calls": 1,
+      "cached": false,
       "prompt_tokens": 2030,
-      "completion_tokens": 1123,
-      "usd": 0.002753,
+      "completion_tokens": 1444,
+      "usd": 0.002963,
       "model": "gpt-5-mini",
-      "seconds": 0.08
+      "seconds": 18.34
     },
     "E021": {
-      "calls": 0,
-      "cached": true,
+      "calls": 1,
+      "cached": false,
       "prompt_tokens": 2549,
-      "completion_tokens": 5537,
-      "usd": 0.011711,
+      "completion_tokens": 4142,
+      "usd": 0.008374,
       "model": "gpt-5-mini",
-      "seconds": 0.12
+      "seconds": 54.27
     },
     "E022": {
-      "calls": 0,
-      "cached": true,
+      "calls": 1,
+      "cached": false,
       "prompt_tokens": 1743,
-      "completion_tokens": 267,
-      "usd": 0.00097,
+      "completion_tokens": 266,
+      "usd": 0.000593,
       "model": "gpt-5-mini",
-      "seconds": 0.09
+      "seconds": 4.37
     },
     "E023": {
-      "calls": 0,
-      "cached": true,
-      "prompt_tokens": 2409,
-      "completion_tokens": 416,
-      "usd": 0.001434,
+      "calls": 1,
+      "cached": false,
+      "prompt_tokens": 2428,
+      "completion_tokens": 800,
+      "usd": 0.001833,
       "model": "gpt-5-mini",
-      "seconds": 0.07
+      "seconds": 10.88
     },
     "E024": {
-      "calls": 0,
-      "cached": true,
+      "calls": 1,
+      "cached": false,
       "prompt_tokens": 1762,
-      "completion_tokens": 873,
-      "usd": 0.002187,
+      "completion_tokens": 1032,
+      "usd": 0.00213,
       "model": "gpt-5-mini",
-      "seconds": 0.08
+      "seconds": 14.06
     }
   }
 }

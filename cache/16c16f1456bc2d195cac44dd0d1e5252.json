@@ -1,0 +1,41 @@
+{
+ "answer": {
+  "classification": "rfq",
+  "needs_review": false,
+  "review_reason": null,
+  "line_items": [
+   {
+    "raw": "10 ea 1\" 90 elbow",
+    "description": "1\" 90 elbow, 316 SS, 150# threaded",
+    "qty": 10,
+    "uom": "EA",
+    "source": "IMG_0031.png"
+   },
+   {
+    "raw": "6 ea 1\" tee",
+    "description": "1\" tee, 316 SS, 150# threaded",
+    "qty": 6,
+    "uom": "EA",
+    "source": "IMG_0031.png"
+   },
+   {
+    "raw": "8 ea 3/4\" coupling",
+    "description": "3/4\" coupling, 316 SS, 150# threaded",
+    "qty": 8,
+    "uom": "EA",
+    "source": "IMG_0031.png"
+   }
+  ]
+ },
+ "meta": {
+  "model": "gpt-5-mini",
+  "usage": {
+   "prompt_tokens": 2184,
+   "completion_tokens": 741,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   }
+  },
+  "usd": 0.002028
+ }
+}

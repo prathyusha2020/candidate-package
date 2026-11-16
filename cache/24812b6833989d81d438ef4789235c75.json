@@ -1,0 +1,48 @@
+{
+ "answer": {
+  "classification": "rfq",
+  "needs_review": false,
+  "review_reason": null,
+  "line_items": [
+   {
+    "raw": "twelve 2\" brass ball valves, full port, threaded.",
+    "description": "2\" brass ball valve, full port, threaded",
+    "qty": 12,
+    "uom": "EA",
+    "source": "body"
+   },
+   {
+    "raw": "a few 1/2\" x 4\" brass nipples",
+    "description": "1/2\" x 4\" brass nipple",
+    "qty": null,
+    "uom": null,
+    "source": "body"
+   },
+   {
+    "raw": "three boxes of 1/2\" PTFE tape",
+    "description": "1/2\" PTFE tape",
+    "qty": 3,
+    "uom": "BX",
+    "source": "body"
+   },
+   {
+    "raw": "150 feet of 3/4\" type L copper tube.",
+    "description": "3/4\" copper tube, Type L",
+    "qty": 150,
+    "uom": "FT",
+    "source": "body"
+   }
+  ]
+ },
+ "meta": {
+  "model": "gpt-5-mini",
+  "usage": {
+   "prompt_tokens": 1703,
+   "completion_tokens": 1539,
+   "prompt_tokens_details": {
+    "cached_tokens": 1536
+   }
+  },
+  "usd": 0.003158
+ }
+}

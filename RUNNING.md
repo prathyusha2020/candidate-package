@@ -35,17 +35,19 @@ emails, default 6), `RFQ_CACHE` (cache directory), `OPENAI_BASE_URL`.
 
 ## Cost
 
-Committed dev run (24 emails): 23 model calls (the bounce needs none), 57,142 input and 37,497
-output tokens, **$0.088 total, about $0.0037 per email**; the largest email (a 50-line workbook)
-cost $0.012. Per-email calls, tokens and dollars are in `parsed.report.json`. A replay from the
-cache makes 0 calls and costs nothing.
+Committed dev run (24 emails): 23 model calls (the bounce needs none), 57,405 input and
+39,529 output tokens, **$0.085 total, about $0.0035 per email**. Per-email calls, tokens and
+dollars are in `parsed.report.json`. A replay from the cache makes 0 calls and costs nothing.
 
 ## Checks
 
 ```
-python -m unittest discover tests      # no model, no key
+python -m unittest discover tests      # 27 tests, no model, no key
 python evaluate.py parsed.json -v      # score against data/dev/answer_key.json
+python tests/run_scenarios.py          # 24 hand-written edge-case emails (replays from cache)
 ```
+
+`tests/make_scenarios.py` regenerates the scenario emails (not needed to run them).
 
 ## Recording
 

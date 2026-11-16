@@ -1,0 +1,17 @@
+From: AR <ar@gulfcoastfreight.example>
+To: rfq@ridgeline-supply.example
+Subject: Invoice 88120 - past due
+Date: Mon, 02 Nov 2026 09:00:00 -0600
+Message-ID: <s04@test.example>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Please find our invoice details below. Payment is 15 days past due.
+
+Invoice 88120
+1 ea  LTL freight Houston to Mobile, 2 pallets   $412.00
+1 ea  Liftgate fee   $75.00
+Total due: $487.00
+
+Remit to: Gulf Coast Freight, PO Box 1140, Houston TX

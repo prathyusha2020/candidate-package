@@ -1,0 +1,19 @@
+{
+ "answer": {
+  "classification": "rfq",
+  "needs_review": true,
+  "review_reason": "Email requests pricing for attached BOM but the BOM attachment is not included or readable in the message; no line items are present to price.",
+  "line_items": []
+ },
+ "meta": {
+  "model": "gpt-5-mini",
+  "usage": {
+   "prompt_tokens": 1774,
+   "completion_tokens": 186,
+   "prompt_tokens_details": {
+    "cached_tokens": 1664
+   }
+  },
+  "usd": 0.000441
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "answer": {
+  "classification": "rfq",
+  "needs_review": true,
+  "review_reason": "Customer asks for 'same as our last order from August' but did not attach or include the prior order details; unable to determine the items and original quantities. They request those quantities doubled and delivery by the 12th — need the August order or PO to prepare a quote.",
+  "line_items": []
+ },
+ "meta": {
+  "model": "gpt-5-mini",
+  "usage": {
+   "prompt_tokens": 1659,
+   "completion_tokens": 343,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   }
+  },
+  "usd": 0.001101
+ }
+}

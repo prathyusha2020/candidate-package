@@ -1,0 +1,41 @@
+{
+ "answer": {
+  "classification": "rfq",
+  "needs_review": false,
+  "review_reason": null,
+  "line_items": [
+   {
+    "raw": "1) 6 ea - 2\" 90 elbow, threaded",
+    "description": "2\" 90 elbow, galvanized, SCH 40, threaded",
+    "qty": 6,
+    "uom": "EA",
+    "source": "body"
+   },
+   {
+    "raw": "2) 8 ea - 2\" tee, threaded",
+    "description": "2\" tee, galvanized, SCH 40, threaded",
+    "qty": 8,
+    "uom": "EA",
+    "source": "body"
+   },
+   {
+    "raw": "3) 4 ea - 2\" union, threaded",
+    "description": "2\" union, galvanized, SCH 40, threaded",
+    "qty": 4,
+    "uom": "EA",
+    "source": "body"
+   }
+  ]
+ },
+ "meta": {
+  "model": "gpt-5-mini",
+  "usage": {
+   "prompt_tokens": 1684,
+   "completion_tokens": 676,
+   "prompt_tokens_details": {
+    "cached_tokens": 1536
+   }
+  },
+  "usd": 0.001427
+ }
+}

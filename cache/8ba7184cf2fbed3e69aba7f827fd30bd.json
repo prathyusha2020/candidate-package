@@ -1,0 +1,41 @@
+{
+ "answer": {
+  "classification": "rfq",
+  "needs_review": false,
+  "review_reason": null,
+  "line_items": [
+   {
+    "raw": "40 | FT | 1\" | Pipe, SCH 80, A106B SMLS, PE",
+    "description": "1\" pipe, SCH 80, A106B SMLS, PE",
+    "qty": 40,
+    "uom": "FT",
+    "source": "SR-5-020.csv"
+   },
+   {
+    "raw": "8 | EA | 1\" | 90 elbow, SW, 3000#, A105",
+    "description": "1\" 90 elbow, SW, 3000#, A105",
+    "qty": 8,
+    "uom": "EA",
+    "source": "SR-5-020.csv"
+   },
+   {
+    "raw": "Also add 2 ea 3\" 150# gate valve, WCB, flanged - not on the list.",
+    "description": "3\" gate valve, 150#, WCB, flanged",
+    "qty": 2,
+    "uom": "EA",
+    "source": "body"
+   }
+  ]
+ },
+ "meta": {
+  "model": "gpt-5-mini",
+  "usage": {
+   "prompt_tokens": 1733,
+   "completion_tokens": 1044,
+   "prompt_tokens_details": {
+    "cached_tokens": 1664
+   }
+  },
+  "usd": 0.002147
+ }
+}

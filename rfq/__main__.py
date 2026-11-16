@@ -19,6 +19,7 @@ from . import llm
 from .readers import QUOTE_MARK, load_email, split_quoted
 
 REQUESTS = ("rfq", "rfq_revision", "purchase_order")
+MAX_IMAGES_PER_EMAIL = 16    # real mail is full of logos; a request never needs more pictures than this
 DUP_WINDOW = 14 * 86400      # a resend arrives within days; the same list a month later is a new order
 
 
@@ -42,8 +43,13 @@ def needs_human(reason: str) -> dict:
     return {**blank("rfq"), "needs_review": True, "review_reason": reason[:300]}
 
 
+def history(email: dict) -> tuple[str, str]:
+    """(new text, quoted history). In a forward the 'history' IS the content, so nothing is split off."""
+    return (email["body"], "") if email["forward"] else split_quoted(email["body"])
+
+
 def prompt_text(email: dict, parent: dict | None) -> str:
-    fresh, quoted = split_quoted(email["body"]) if not email["internal"] else (email["body"], "")
+    fresh, quoted = history(email)
     parts = [f"From: {email['from']}\nTo: {email['to']}\nDate: {email['date_str']}\nSubject: {email['subject']}",
              "Sender is one of OUR OWN reps (@ridgeline-supply.example)." if email["internal"] else "",
              "=== BODY ===\n" + fresh.strip() + (f"\n\n{QUOTE_MARK}\n{quoted}" if quoted else "")]
@@ -66,8 +72,7 @@ def check(email: dict, ans: dict, parent: dict | None) -> dict:
     if rec["classification"] not in REQUESTS:
         return rec                                       # non-requests never carry lines or flags
     atts = {a["name"]: a for a in ((parent or {}).get("attachments", []) + email["attachments"])}
-    fresh, quoted = split_quoted(email["body"])
-    is_forward = email["internal"] or re.match(r"\s*(fw|fwd)\s*:", email["subject"], re.I)
+    fresh, quoted = history(email)
     reasons, dropped = [], 0
     if ans.get("needs_review"):
         reasons.append(ans.get("review_reason") or "model asked for review")
@@ -82,7 +87,7 @@ def check(email: dict, ans: dict, parent: dict | None) -> dict:
         if src == "body":
             where, has_pictures = email["body"] + "\n" + (parent or {}).get("body", ""), False
             # a plain rfq must not re-list what is only in the quoted history of a reply
-            if rec["classification"] == "rfq" and quoted and not is_forward and grounded(raw, fresh) < 0.6 <= grounded(raw, quoted):
+            if rec["classification"] == "rfq" and quoted and grounded(raw, fresh) < 0.6 <= grounded(raw, quoted):
                 dropped += 1
                 continue
         else:
@@ -122,7 +127,7 @@ def parse_one(path: Path, by_msgid: dict) -> tuple[dict, dict, dict | None]:
             return blank("auto_reply"), {**rep, "note": "auto_reply by headers", "seconds": round(time.time() - t0, 2)}, email
         ppath = next((by_msgid[r] for r in email["refs"] if r in by_msgid and by_msgid[r] != path), None)
         parent = load_email(ppath) if ppath else None
-        images = [(a["name"], img) for a in email["attachments"] for img in a["images"]]
+        images = [(a["name"], img) for a in email["attachments"] for img in a["images"]][:MAX_IMAGES_PER_EMAIL]
         key = llm.cache_key(path.read_bytes(), ppath.read_bytes() if ppath else b"")
         ans, meta = llm.ask(key, llm.build_content(prompt_text(email, parent), images))
         rep.update(calls=meta["calls"], cached=meta["cached"], usd=meta["usd"], model=meta["model"],

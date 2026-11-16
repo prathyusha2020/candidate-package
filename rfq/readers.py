@@ -65,9 +65,13 @@ def html_to_text(html: str) -> str:
     return re.sub(r"\n\s*\n+", "\n\n", text).strip()
 
 
+HISTORY = re.compile(r"(?mi)^(On .{5,200}wrote:\s*$|>|-{2,} ?Original Message ?-{2,}|_{20,}\s*$|From: .+\n(Sent|Date): )")
+NOISE = (".p7s", ".p7m", ".ics", ".vcf", ".asc", ".sig")     # signatures, invites, contact cards: never the request
+
+
 def split_quoted(body: str) -> tuple[str, str]:
-    """(what the sender wrote now, quoted reply history). Forwards are not history."""
-    m = re.search(r"(?m)^(On .{5,200}wrote:\s*$|>)", body)
+    """(what the sender wrote now, quoted reply history) - Gmail, Apple Mail and Outlook styles."""
+    m = HISTORY.search(body)
     return (body[: m.start()], body[m.start():]) if m else (body, "")
 
 
@@ -118,8 +122,9 @@ def parse_message(msg, eid: str = "") -> dict:
         "refs": re.findall(r"<[^>]+>", f"{msg.get('In-Reply-To') or ''} {msg.get('References') or ''}"),
         "machine": str(msg.get("Auto-Submitted") or "no").lower() != "no"
                    or bool(re.match(r"(mailer-daemon|postmaster)@", sender)) or msg.get_content_type() == "multipart/report",
-        "body": body.replace("\r\n", "\n").strip(),
-        "attachments": [render(a) for a in atts],
+        "body": body.replace("\r\n", "\n").strip()[:MAX_TEXT],
+        "forward": sender.endswith(OURS) or bool(re.match(r"\s*(fw|fwd)\s*:", str(msg.get("Subject") or ""), re.I)),
+        "attachments": [r for r in (render(a) for a in atts) if not r["skip"]],
     }
 
 
@@ -220,6 +225,8 @@ def _image(data: bytes) -> list[bytes]:
     out = []
     for frame in list(ImageSequence.Iterator(Image.open(io.BytesIO(data))))[:MAX_IMAGES]:
         im = ImageOps.exif_transpose(frame).convert("RGB")
+        if min(im.size) < 48:                           # tracking pixels, bullets, social icons
+            continue
         im.thumbnail((2000, 2000))
         buf = io.BytesIO()
         im.save(buf, "JPEG", quality=88)
@@ -232,7 +239,9 @@ def render(att: dict) -> dict:
     name, mime, data = att["name"], att["mime"], att["data"]
     ext = Path(name).suffix.lower()
     r = {"name": name, "inline": att["inline"], "text": "", "images": [], "error": None, "note": None,
-         "raw_sha": hashlib.sha256(data).hexdigest()}
+         "raw_sha": hashlib.sha256(data).hexdigest(), "skip": ext in NOISE or mime in ("text/calendar", "application/pkcs7-signature")}
+    if r["skip"]:
+        return r
     try:
         if not data:
             raise ValueError("attachment is empty (0 bytes)")
@@ -247,6 +256,7 @@ def render(att: dict) -> dict:
             r["text"], r["images"], r["note"] = _pdf(data)
         elif mime.startswith("image/") or ext in (".jpg", ".jpeg", ".png", ".gif", ".bmp", ".tif", ".tiff", ".webp"):
             r["images"] = _image(data)
+            r["skip"] = not r["images"]                # only tiny decoration: not content, not an error
         elif mime == "message/rfc822" or ext == ".eml":
             inner = parse_message(BytesParser(policy=policy.default).parsebytes(data))
             r["text"] = (f"From: {inner['from']}\nTo: {inner['to']}\nDate: {inner['date_str']}\nSubject: {inner['subject']}\n\n{inner['body']}"
@@ -259,7 +269,7 @@ def render(att: dict) -> dict:
             r["text"] = html_to_text(text) if ext in (".htm", ".html") or mime == "text/html" else text
         else:
             raise ValueError(f"unsupported attachment type {mime}")
-        if not r["text"].strip() and not r["images"]:
+        if not r["text"].strip() and not r["images"] and not r["skip"]:
             raise ValueError("attachment has no readable content")
         if len(r["text"]) > MAX_TEXT:
             r["text"], r["note"] = r["text"][:MAX_TEXT], f"attachment text truncated at {MAX_TEXT} characters"

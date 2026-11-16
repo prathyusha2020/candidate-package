@@ -29,9 +29,11 @@ governs; it has to be read in document order.
 
 ## Predicted held-out numbers, and the two kinds of email I expect to get wrong
 
-Dev (committed run): 24/24 classes, 210/210 lines, qty/uom/source 210/210, context 210/210,
-0 silent losses, 0 hallucinated lines. That is the 4th prompt version and dev was the tuning
-set, so I discount it. Held-out prediction: classification **92-95%**; silent losses **0**
+Dev (committed run): 24/24 classes, 210/210 lines, qty/uom/source 210/210, context 209/210,
+0 silent losses, 0 hallucinated lines. Dev was the tuning set and the model is not
+deterministic (six full runs: context between 206 and 210 of 210), so I discount it. On 24
+extra emails I wrote myself for situations dev lacks (`tests/scenarios`), 24/24 behaved as
+expected. Held-out prediction: classification **92-95%**; silent losses **0**
 (at most 1); hallucinated lines **1-3%** of returned lines; line recall **~95%**; qty **~97%**;
 context carried **~88-92%**; needs_review 1-2 false flags; links 1 wrong.
 
@@ -47,8 +49,7 @@ context carried **~88-92%**; needs_review 1-2 false flags; links 1 wrong.
 ## How this runs for real
 
 - **3,000 emails/day by webhook.** Designed, not built: webhook writes the raw `.eml` to storage
-  and enqueues its hash; workers run exactly `parse_one`. At dev cost ($0.0037/email, ~1.6k
-  output tokens) that is about **$11/day**. Built: per-email isolation, 6 parallel workers.
+  and enqueues its hash; workers run exactly `parse_one`. At dev cost ($0.0035/email) that is about **$11/day**. Built: per-email isolation, 6 parallel workers.
 - **Provider down for two hours.** Built: 3 retries with backoff, then the email comes back
   `needs_review` with the reason, the run finishes, and failures are **not cached**, so the next
   run retries only those. Tested (`test_model_down...`). Not built: the queue that re-drives them.
@@ -72,11 +73,18 @@ request with zero lines forces `needs_review` (silent-loss guard); `revises` fro
 
 ## How I measured
 
-`evaluate.py` re-implements "What we grade" against the dev key; `tests/` has an oracle test
-(the answer key plays the model: true lines must survive every code check) and failure tests.
-Runs: v1 209/210 lines, 1 context miss -> v2 fixed both but broke E008 (44 duplicate lines) and
-dropped "carbon steel" -> v3 fixed, E007 ditto miss + false flag -> v4 clean. Each fix is a
-general rule in the prompt or in code, not a dev string; then I stopped.
+`evaluate.py` re-implements "What we grade" against the dev key. `tests/` has 27 model-free
+tests (the answer key plays the model: true lines must survive every code check; file formats;
+quoting styles; duplicate rules; cache; provider down; garbage input) and 24 hand-written
+scenario emails run through the real model (`tests/run_scenarios.py`: out-of-office with no
+headers, prompt injection, a revision whose original is not quoted, struck rows in HTML, Excel
+and a picture, a rep forwarding a vendor quote ...).
+Prompt history: v1 209/210 lines, 1 context miss -> v2 fixed both but broke E008 (44 duplicate
+lines) and dropped "carbon steel" -> v3 fixed, E007 ditto miss + false flag -> v4 clean. A later
+run put E010's lines on the wrong inline image, fixed by naming each picture before and after
+it. Each fix is a general rule in the prompt or in code, not a dev string. The committed run
+misses one description (E004: "valve" not carried from the VALVES heading); I left it rather
+than re-roll until dev is perfect.
 
 ## Rejected
 

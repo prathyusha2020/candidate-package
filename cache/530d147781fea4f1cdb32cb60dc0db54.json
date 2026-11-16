@@ -1,0 +1,34 @@
+{
+ "answer": {
+  "classification": "rfq",
+  "needs_review": false,
+  "review_reason": null,
+  "line_items": [
+   {
+    "raw": "10 | 90 elbow | 1/2\"",
+    "description": "1/2\" 90 elbow, 304 SS, 150# THREADED",
+    "qty": 10,
+    "uom": "EA",
+    "source": "body"
+   },
+   {
+    "raw": "4 | Cap | 3/4\"",
+    "description": "3/4\" cap, 304 SS, 150# THREADED",
+    "qty": 4,
+    "uom": "EA",
+    "source": "body"
+   }
+  ]
+ },
+ "meta": {
+  "model": "gpt-5-mini",
+  "usage": {
+   "prompt_tokens": 1719,
+   "completion_tokens": 638,
+   "prompt_tokens_details": {
+    "cached_tokens": 1664
+   }
+  },
+  "usd": 0.001331
+ }
+}

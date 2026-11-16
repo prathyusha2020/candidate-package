@@ -1,0 +1,62 @@
+{
+ "answer": {
+  "classification": "rfq",
+  "needs_review": false,
+  "review_reason": null,
+  "line_items": [
+   {
+    "raw": "8 | Weld neck flange, 150# RF, A105, STD bore | 4\"",
+    "description": "4\" weld neck flange, 150# RF, A105, STD bore",
+    "qty": 8,
+    "uom": "EA",
+    "source": "body"
+   },
+   {
+    "raw": "12 | 90 deg elbow, LR, BW, SCH 40, A234 WPB | 4\"",
+    "description": "4\" 90 deg elbow, LR, BW, SCH 40, A234 WPB",
+    "qty": 12,
+    "uom": "EA",
+    "source": "body"
+   },
+   {
+    "raw": "8 | Spiral wound gasket, 304/graphite, 150# | 4\"",
+    "description": "4\" spiral wound gasket, 304/graphite, 150#",
+    "qty": 8,
+    "uom": "EA",
+    "source": "body"
+   },
+   {
+    "raw": "32 | Stud bolt, B7, 4-1/2\" long, w/ 2 heavy hex nuts | 3/4\"",
+    "description": "3/4\" stud bolt, B7, 4-1/2\" long, with 2 heavy hex nuts",
+    "qty": 32,
+    "uom": "EA",
+    "source": "body"
+   },
+   {
+    "raw": "6 | Eccentric reducer, BW, SCH 40, A234 WPB | 6\" x 4\"",
+    "description": "6\" x 4\" eccentric reducer, BW, SCH 40, A234 WPB",
+    "qty": 6,
+    "uom": "EA",
+    "source": "body"
+   },
+   {
+    "raw": "12 rolls | PTFE thread tape, white, heavy duty | N/A",
+    "description": "PTFE thread tape, white, heavy duty",
+    "qty": 12,
+    "uom": "RL",
+    "source": "body"
+   }
+  ]
+ },
+ "meta": {
+  "model": "gpt-5-mini",
+  "usage": {
+   "prompt_tokens": 1827,
+   "completion_tokens": 1215,
+   "prompt_tokens_details": {
+    "cached_tokens": 1664
+   }
+  },
+  "usd": 0.002512
+ }
+}

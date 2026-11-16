@@ -1,0 +1,34 @@
+{
+ "answer": {
+  "classification": "rfq",
+  "needs_review": false,
+  "review_reason": null,
+  "line_items": [
+   {
+    "raw": "10 pzas - codo 90 de 2\" cedula 40, soldable",
+    "description": "2\" elbow, 90°, SCH 40, weldable",
+    "qty": 10,
+    "uom": "EA",
+    "source": "body"
+   },
+   {
+    "raw": "25 metros - tubo de 2\" cedula 40 sin costura",
+    "description": "2\" tube, SCH 40, seamless",
+    "qty": 25,
+    "uom": "M",
+    "source": "body"
+   }
+  ]
+ },
+ "meta": {
+  "model": "gpt-5-mini",
+  "usage": {
+   "prompt_tokens": 1674,
+   "completion_tokens": 960,
+   "prompt_tokens_details": {
+    "cached_tokens": 1536
+   }
+  },
+  "usd": 0.001993
+ }
+}

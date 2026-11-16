@@ -1,0 +1,27 @@
+From: Ana Pereira <ana.pereira@summitrefit.example>
+To: rfq@ridgeline-supply.example
+Subject: RFQ SR-5-020
+Date: Thu, 05 Nov 2026 09:00:00 -0600
+Message-ID: <s20@test.example>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============1244068633347463611=="
+
+--===============1244068633347463611==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Please quote the attached CSV. Also add 2 ea 3" 150# gate valve, WCB, flanged=
+ - not on the list.
+
+Ana
+
+--===============1244068633347463611==
+Content-Type: text/csv
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="SR-5-020.csv"
+MIME-Version: 1.0
+
+UXR5LFVPTSxTaXplLERlc2NyaXB0aW9uDQo0MCxGVCwiMSIiIiwiUGlwZSwgU0NIIDgwLCBBMTA2
+QiBTTUxTLCBQRSINCjgsRUEsIjEiIiIsIjkwIGVsYm93LCBTVywgMzAwMCMsIEExMDUiDQo=
+
+--===============1244068633347463611==--

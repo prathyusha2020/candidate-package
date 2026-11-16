@@ -1,0 +1,27 @@
+{
+ "answer": {
+  "classification": "rfq",
+  "needs_review": false,
+  "review_reason": null,
+  "line_items": [
+   {
+    "raw": "MODEL: HV-800-FGS",
+    "description": "2\" forged steel gate valve, CLASS: 800 LB, NPT ends, body A105, trim 13CR, model HV-800-FGS",
+    "qty": 3,
+    "uom": "EA",
+    "source": "IMG_4417.jpg"
+   }
+  ]
+ },
+ "meta": {
+  "model": "gpt-5-mini",
+  "usage": {
+   "prompt_tokens": 2428,
+   "completion_tokens": 800,
+   "prompt_tokens_details": {
+    "cached_tokens": 1664
+   }
+  },
+  "usd": 0.001833
+ }
+}

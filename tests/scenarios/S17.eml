@@ -1,0 +1,25 @@
+From: Ivy Cole <icole@redriverpipe.example>
+To: rfq@ridgeline-supply.example
+Subject: RFQ RR-2209
+Date: Mon, 02 Nov 2026 09:00:00 -0600
+Message-ID: <s17@test.example>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============2911800047314420504=="
+
+--===============2911800047314420504==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi, list is in the attached spreadsheet, need it Friday.
+
+Ivy
+
+--===============2911800047314420504==
+Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="RR-2209.xlsx"
+MIME-Version: 1.0
+
+UEsDBCB0aGlzIGZpbGUgaXMgY29ycnVwdA==
+
+--===============2911800047314420504==--

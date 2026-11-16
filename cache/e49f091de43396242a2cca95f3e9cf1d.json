@@ -1,0 +1,19 @@
+{
+ "answer": {
+  "classification": "rfq",
+  "needs_review": true,
+  "review_reason": "Attachment RR-2209.xlsx unreadable (BadZipFile). Customer states list is in the attached spreadsheet; no line items present in email body.",
+  "line_items": []
+ },
+ "meta": {
+  "model": "gpt-5-mini",
+  "usage": {
+   "prompt_tokens": 1676,
+   "completion_tokens": 200,
+   "prompt_tokens_details": {
+    "cached_tokens": 1536
+   }
+  },
+  "usd": 0.000473
+ }
+}

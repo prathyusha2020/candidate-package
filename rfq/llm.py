@@ -26,7 +26,7 @@ PRICES = {  # USD per 1M tokens: (input, cached input, output). Unknown models a
 CLASSES = ["rfq", "rfq_revision", "purchase_order", "vendor_quote", "status_inquiry", "auto_reply", "other"]
 UOMS = ["EA", "FT", "M", "IN", "BX", "PK", "PR", "DZ", "RL", "LB", "SET", "GAL", "BAG", "CS"]
 
-PROMPT_VERSION = "v4"
+PROMPT_VERSION = "v4-r3"   # bump on any change to the prompt OR to how emails are rendered for it
 SYSTEM = """You read one email from the RFQ inbox of Ridgeline Industrial Supply, a distributor of pipe, fittings, flanges, valves, gaskets and bolting. Decide what kind of email it is and list exactly the items the customer is asking for. An inside sales rep will quote from your answer without re-reading the email.
 
 CLASSIFICATION - what the CURRENT message does (not its subject line, not the quoted history):
@@ -98,9 +98,10 @@ def cache_key(*raw_inputs: bytes) -> str:
 
 def build_content(text: str, images: list[tuple[str, bytes]]) -> list[dict]:
     content = [{"type": "text", "text": text}]
-    for label, jpeg in images:
-        content.append({"type": "text", "text": f"[picture: {label}]"})
+    for i, (label, jpeg) in enumerate(images, 1):     # name each picture before and after: sources get mixed up otherwise
+        content.append({"type": "text", "text": f"[picture {i} of {len(images)} - filename: {label} - the next image]"})
         content.append({"type": "image_url", "image_url": {"url": "data:image/jpeg;base64," + base64.b64encode(jpeg).decode(), "detail": "high"}})
+        content.append({"type": "text", "text": f"[end of {label}]"})
     return content
 
 

@@ -1,0 +1,19 @@
+{
+ "answer": {
+  "classification": "purchase_order",
+  "needs_review": true,
+  "review_reason": "Email references PO 7781 attachment but the attachment is not included; cannot extract ordered line items.",
+  "line_items": []
+ },
+ "meta": {
+  "model": "gpt-5-mini",
+  "usage": {
+   "prompt_tokens": 1652,
+   "completion_tokens": 190,
+   "prompt_tokens_details": {
+    "cached_tokens": 1536
+   }
+  },
+  "usd": 0.000447
+ }
+}
