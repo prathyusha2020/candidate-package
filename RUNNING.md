@@ -42,6 +42,12 @@ dollars are in `parsed.report.json`. A replay from the cache makes 0 calls and c
 ## Checks
 
 ```
+python run_all_tests.py                # everything below in one go, no key needed
+```
+
+Or one at a time:
+
+```
 python -m unittest discover tests      # 27 tests, no model, no key
 python evaluate.py parsed.json -v      # score against data/dev/answer_key.json
 python tests/run_scenarios.py          # 24 hand-written edge-case emails (replays from cache)
