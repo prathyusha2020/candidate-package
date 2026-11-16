@@ -6,6 +6,7 @@ encrypted or broken. Each attachment becomes {name, inline, text, images, error}
 from __future__ import annotations
 
 import csv
+import hashlib
 import io
 import re
 import zipfile
@@ -230,7 +231,8 @@ def render(att: dict) -> dict:
     """Never raises: an unreadable attachment comes back with `error` set."""
     name, mime, data = att["name"], att["mime"], att["data"]
     ext = Path(name).suffix.lower()
-    r = {"name": name, "inline": att["inline"], "text": "", "images": [], "error": None, "note": None}
+    r = {"name": name, "inline": att["inline"], "text": "", "images": [], "error": None, "note": None,
+         "raw_sha": hashlib.sha256(data).hexdigest()}
     try:
         if not data:
             raise ValueError("attachment is empty (0 bytes)")
