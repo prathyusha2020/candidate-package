@@ -35,8 +35,10 @@ emails, default 6), `RFQ_CACHE` (cache directory), `OPENAI_BASE_URL`.
 
 ## Cost
 
-See `parsed.report.json` for the per-email numbers of the committed dev run; the summary is in
-`DECISIONS.md`.
+Committed dev run (24 emails): 23 model calls (the bounce needs none), 57,142 input and 37,497
+output tokens, **$0.088 total, about $0.0037 per email**; the largest email (a 50-line workbook)
+cost $0.012. Per-email calls, tokens and dollars are in `parsed.report.json`. A replay from the
+cache makes 0 calls and costs nothing.
 
 ## Checks
 

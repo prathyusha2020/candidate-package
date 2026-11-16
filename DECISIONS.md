@@ -37,8 +37,8 @@ context carried **~88-92%**; needs_review 1-2 false flags; links 1 wrong.
 
 1. **Handwriting, photos and scans.** Nothing checks the model's reading of a picture (the
    grounding check only works on text). Across my four dev runs the same photo (E007) was read
-   three ways: ditto marks resolved, not resolved, and flagged for review. Crossed-out rows on a
-   scan are the same risk.
+   correctly three times and once with a ditto mark left unresolved and a needless review
+   flag. Crossed-out rows on a scan are the same risk.
 2. **Thread situations dev doesn't show.** A revision whose original list is not quoted and
    lives in an earlier email's attachment; a partial "go ahead" mixed with new items; a rep
    forwarding a vendor's quote; formats I only flag rather than read (`.msg`, HEIC, zip,
