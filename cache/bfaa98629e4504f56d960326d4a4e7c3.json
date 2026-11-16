@@ -9,33 +9,33 @@
     "description": "3\" 150# RF weld neck flange, A105, STD bore",
     "qty": 8,
     "uom": "EA",
-    "source": "quoted message"
+    "source": "body"
    },
    {
     "raw": "2. 120 FT - 3\" SCH 40 A53B ERW pipe, PE - $7.95/ft",
     "description": "3\" SCH 40 A53B ERW pipe, PE",
     "qty": 120,
     "uom": "FT",
-    "source": "quoted message"
+    "source": "body"
    },
    {
     "raw": "4. 16 EA - 3\" 90 deg LR elbow, BW, SCH 40, A234 WPB - $9.35 ea",
     "description": "3\" 90 deg LR elbow, BW, SCH 40, A234 WPB",
     "qty": 16,
     "uom": "EA",
-    "source": "quoted message"
+    "source": "body"
    }
   ]
  },
  "meta": {
   "model": "gpt-5-mini",
   "usage": {
-   "prompt_tokens": 1768,
-   "completion_tokens": 1126,
+   "prompt_tokens": 1953,
+   "completion_tokens": 1247,
    "prompt_tokens_details": {
-    "cached_tokens": 0
+    "cached_tokens": 1408
    }
   },
-  "usd": 0.002694
+  "usd": 0.002665
  }
 }

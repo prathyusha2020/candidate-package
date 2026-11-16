@@ -6,224 +6,224 @@
   "line_items": [
    {
     "raw": "1 | 6 | EA | 1\" | WN 150# RF",
-    "description": "Flange, WN 150# RF, 1\"",
+    "description": "1\" flange, WN, 150# RF",
     "qty": 6,
     "uom": "EA",
     "source": "Scan_RFQ_SC-4418.pdf"
    },
    {
     "raw": "2 | 4 | EA | 1-1/2\" | WN 150# RF",
-    "description": "Flange, WN 150# RF, 1-1/2\"",
+    "description": "1-1/2\" flange, WN, 150# RF",
     "qty": 4,
     "uom": "EA",
     "source": "Scan_RFQ_SC-4418.pdf"
    },
    {
     "raw": "3 | 10 | EA | 2\" | WN 150# RF",
-    "description": "Flange, WN 150# RF, 2\"",
+    "description": "2\" flange, WN, 150# RF",
     "qty": 10,
     "uom": "EA",
     "source": "Scan_RFQ_SC-4418.pdf"
    },
    {
     "raw": "4 | 8 | EA | 3\" | WN 150# RF",
-    "description": "Flange, WN 150# RF, 3\"",
+    "description": "3\" flange, WN, 150# RF",
     "qty": 8,
     "uom": "EA",
     "source": "Scan_RFQ_SC-4418.pdf"
    },
    {
     "raw": "5 | 12 | EA | 4\" | WN 150# RF",
-    "description": "Flange, WN 150# RF, 4\"",
+    "description": "4\" flange, WN, 150# RF",
     "qty": 12,
     "uom": "EA",
     "source": "Scan_RFQ_SC-4418.pdf"
    },
    {
     "raw": "6 | 6 | EA | 6\" | WN 150# RF",
-    "description": "Flange, WN 150# RF, 6\"",
+    "description": "6\" flange, WN, 150# RF",
     "qty": 6,
     "uom": "EA",
     "source": "Scan_RFQ_SC-4418.pdf"
    },
    {
     "raw": "7 | 4 | EA | 8\" | WN 150# RF",
-    "description": "Flange, WN 150# RF, 8\"",
+    "description": "8\" flange, WN, 150# RF",
     "qty": 4,
     "uom": "EA",
     "source": "Scan_RFQ_SC-4418.pdf"
    },
    {
     "raw": "8 | 4 | EA | 2\" | SO 150# RF",
-    "description": "Flange, SO 150# RF, 2\"",
+    "description": "2\" flange, SO, 150# RF",
     "qty": 4,
     "uom": "EA",
     "source": "Scan_RFQ_SC-4418.pdf"
    },
    {
     "raw": "9 | 4 | EA | 3\" | SO 150# RF",
-    "description": "Flange, SO 150# RF, 3\"",
+    "description": "3\" flange, SO, 150# RF",
     "qty": 4,
     "uom": "EA",
     "source": "Scan_RFQ_SC-4418.pdf"
    },
    {
     "raw": "10 | 6 | EA | 4\" | SO 150# RF",
-    "description": "Flange, SO 150# RF, 4\"",
+    "description": "4\" flange, SO, 150# RF",
     "qty": 6,
     "uom": "EA",
     "source": "Scan_RFQ_SC-4418.pdf"
    },
    {
     "raw": "11 | 4 | EA | 6\" | SO 150# RF",
-    "description": "Flange, SO 150# RF, 6\"",
+    "description": "6\" flange, SO, 150# RF",
     "qty": 4,
     "uom": "EA",
     "source": "Scan_RFQ_SC-4418.pdf"
    },
    {
     "raw": "12 | 2 | EA | 2\" | BL 150# RF",
-    "description": "Flange, BL 150# RF (blind), 2\"",
+    "description": "2\" flange, BL, 150# RF",
     "qty": 2,
     "uom": "EA",
     "source": "Scan_RFQ_SC-4418.pdf"
    },
    {
     "raw": "13 | 2 | EA | 4\" | BL 150# RF",
-    "description": "Flange, BL 150# RF (blind), 4\"",
+    "description": "4\" flange, BL, 150# RF",
     "qty": 2,
     "uom": "EA",
     "source": "Scan_RFQ_SC-4418.pdf"
    },
    {
     "raw": "14 | 2 | EA | 6\" | BL 150# RF",
-    "description": "Flange, BL 150# RF (blind), 6\"",
+    "description": "6\" flange, BL, 150# RF",
     "qty": 2,
     "uom": "EA",
     "source": "Scan_RFQ_SC-4418.pdf"
    },
    {
     "raw": "15 | 10 | EA | 1\" | Spiral wound, 304/graphite, 150#",
-    "description": "Gasket, Spiral wound, 304/graphite, 150#, 1\"",
+    "description": "1\" gasket, spiral wound, 304/graphite, 150#",
     "qty": 10,
     "uom": "EA",
     "source": "Scan_RFQ_SC-4418.pdf"
    },
    {
     "raw": "16 | 6 | EA | 1-1/2\" | Spiral wound, 304/graphite, 150#",
-    "description": "Gasket, Spiral wound, 304/graphite, 150#, 1-1/2\"",
+    "description": "1-1/2\" gasket, spiral wound, 304/graphite, 150#",
     "qty": 6,
     "uom": "EA",
     "source": "Scan_RFQ_SC-4418.pdf"
    },
    {
     "raw": "17 | 20 | EA | 2\" | Spiral wound, 304/graphite, 150#",
-    "description": "Gasket, Spiral wound, 304/graphite, 150#, 2\"",
+    "description": "2\" gasket, spiral wound, 304/graphite, 150#",
     "qty": 20,
     "uom": "EA",
     "source": "Scan_RFQ_SC-4418.pdf"
    },
    {
     "raw": "18 | 12 | EA | 3\" | Spiral wound, 304/graphite, 150#",
-    "description": "Gasket, Spiral wound, 304/graphite, 150#, 3\"",
+    "description": "3\" gasket, spiral wound, 304/graphite, 150#",
     "qty": 12,
     "uom": "EA",
     "source": "Scan_RFQ_SC-4418.pdf"
    },
    {
     "raw": "19 | 16 | EA | 4\" | Spiral wound, 304/graphite, 150#",
-    "description": "Gasket, Spiral wound, 304/graphite, 150#, 4\"",
+    "description": "4\" gasket, spiral wound, 304/graphite, 150#",
     "qty": 16,
     "uom": "EA",
     "source": "Scan_RFQ_SC-4418.pdf"
    },
    {
     "raw": "20 | 8 | EA | 6\" | Spiral wound, 304/graphite, 150#",
-    "description": "Gasket, Spiral wound, 304/graphite, 150#, 6\"",
+    "description": "6\" gasket, spiral wound, 304/graphite, 150#",
     "qty": 8,
     "uom": "EA",
     "source": "Scan_RFQ_SC-4418.pdf"
    },
    {
     "raw": "21 | 4 | EA | 8\" | Spiral wound, 304/graphite, 150#",
-    "description": "Gasket, Spiral wound, 304/graphite, 150#, 8\"",
+    "description": "8\" gasket, spiral wound, 304/graphite, 150#",
     "qty": 4,
     "uom": "EA",
     "source": "Scan_RFQ_SC-4418.pdf"
    },
    {
     "raw": "22 | 2 | EA | 10\" | Spiral wound, 304/graphite, 150#",
-    "description": "Gasket, Spiral wound, 304/graphite, 150#, 10\"",
+    "description": "10\" gasket, spiral wound, 304/graphite, 150#",
     "qty": 2,
     "uom": "EA",
     "source": "Scan_RFQ_SC-4418.pdf"
    },
    {
     "raw": "23 | 32 | EA | 1/2\" x 3\" | B7 w/ 2 heavy hex nuts",
-    "description": "Stud bolt, B7 w/ 2 heavy hex nuts, 1/2\" x 3\"",
+    "description": "1/2\" x 3\" stud bolt, B7 w/ 2 heavy hex nuts",
     "qty": 32,
     "uom": "EA",
     "source": "Scan_RFQ_SC-4418.pdf"
    },
    {
     "raw": "24 | 24 | EA | 5/8\" x 3-1/4\" | B7 w/ 2 heavy hex nuts",
-    "description": "Stud bolt, B7 w/ 2 heavy hex nuts, 5/8\" x 3-1/4\"",
+    "description": "5/8\" x 3-1/4\" stud bolt, B7 w/ 2 heavy hex nuts",
     "qty": 24,
     "uom": "EA",
     "source": "Scan_RFQ_SC-4418.pdf"
    },
    {
     "raw": "25 | 16 | EA | 5/8\" x 3-1/2\" | B7 w/ 2 heavy hex nuts",
-    "description": "Stud bolt, B7 w/ 2 heavy hex nuts, 5/8\" x 3-1/2\"",
+    "description": "5/8\" x 3-1/2\" stud bolt, B7 w/ 2 heavy hex nuts",
     "qty": 16,
     "uom": "EA",
     "source": "Scan_RFQ_SC-4418.pdf"
    },
    {
     "raw": "26 | 48 | EA | 3/4\" x 4\" | B7 w/ 2 heavy hex nuts",
-    "description": "Stud bolt, B7 w/ 2 heavy hex nuts, 3/4\" x 4\"",
+    "description": "3/4\" x 4\" stud bolt, B7 w/ 2 heavy hex nuts",
     "qty": 48,
     "uom": "EA",
     "source": "Scan_RFQ_SC-4418.pdf"
    },
    {
     "raw": "27 | 24 | EA | 3/4\" x 4-1/4\" | B7 w/ 2 heavy hex nuts",
-    "description": "Stud bolt, B7 w/ 2 heavy hex nuts, 3/4\" x 4-1/4\"",
+    "description": "3/4\" x 4-1/4\" stud bolt, B7 w/ 2 heavy hex nuts",
     "qty": 24,
     "uom": "EA",
     "source": "Scan_RFQ_SC-4418.pdf"
    },
    {
     "raw": "28 | 32 | EA | 3/4\" x 4-1/2\" | B7 w/ 2 heavy hex nuts",
-    "description": "Stud bolt, B7 w/ 2 heavy hex nuts, 3/4\" x 4-1/2\"",
+    "description": "3/4\" x 4-1/2\" stud bolt, B7 w/ 2 heavy hex nuts",
     "qty": 32,
     "uom": "EA",
     "source": "Scan_RFQ_SC-4418.pdf"
    },
    {
     "raw": "29 | 16 | EA | 7/8\" x 5\" | B7 w/ 2 heavy hex nuts",
-    "description": "Stud bolt, B7 w/ 2 heavy hex nuts, 7/8\" x 5\"",
+    "description": "7/8\" x 5\" stud bolt, B7 w/ 2 heavy hex nuts",
     "qty": 16,
     "uom": "EA",
     "source": "Scan_RFQ_SC-4418.pdf"
    },
    {
     "raw": "30 | 16 | EA | 7/8\" x 5-1/4\" | B7 w/ 2 heavy hex nuts",
-    "description": "Stud bolt, B7 w/ 2 heavy hex nuts, 7/8\" x 5-1/4\"",
+    "description": "7/8\" x 5-1/4\" stud bolt, B7 w/ 2 heavy hex nuts",
     "qty": 16,
     "uom": "EA",
     "source": "Scan_RFQ_SC-4418.pdf"
    },
    {
     "raw": "31 | 16 | EA | 1\" x 5-3/4\" | B7 w/ 2 heavy hex nuts",
-    "description": "Stud bolt, B7 w/ 2 heavy hex nuts, 1\" x 5-3/4\"",
+    "description": "1\" x 5-3/4\" stud bolt, B7 w/ 2 heavy hex nuts",
     "qty": 16,
     "uom": "EA",
     "source": "Scan_RFQ_SC-4418.pdf"
    },
    {
     "raw": "32 | 8 | EA | 1\" x 6\" | B7 w/ 2 heavy hex nuts",
-    "description": "Stud bolt, B7 w/ 2 heavy hex nuts, 1\" x 6\"",
+    "description": "1\" x 6\" stud bolt, B7 w/ 2 heavy hex nuts",
     "qty": 8,
     "uom": "EA",
     "source": "Scan_RFQ_SC-4418.pdf"
@@ -233,12 +233,12 @@
  "meta": {
   "model": "gpt-5-mini",
   "usage": {
-   "prompt_tokens": 5145,
-   "completion_tokens": 4105,
+   "prompt_tokens": 5330,
+   "completion_tokens": 3992,
    "prompt_tokens_details": {
     "cached_tokens": 0
    }
   },
-  "usd": 0.009496
+  "usd": 0.009317
  }
 }

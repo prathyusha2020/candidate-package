@@ -6,63 +6,63 @@
   "line_items": [
    {
     "raw": "10 jts | 2\" | PE",
-    "description": "Carbon Steel Pipe – SCH 80 SMLS A106B | Size: 2\" | Ends: PE | Pipe, SCH 80, seamless, A106B",
+    "description": "2\" carbon steel pipe, SCH 80 SMLS A106B, PE",
     "qty": 10,
     "uom": "EA",
     "source": "TankFarm_Ph2_Materials.docx"
    },
    {
     "raw": "6 jts | 3\" | PE",
-    "description": "Carbon Steel Pipe – SCH 80 SMLS A106B | Size: 3\" | Ends: PE | Pipe, SCH 80, seamless, A106B",
+    "description": "3\" carbon steel pipe, SCH 80 SMLS A106B, PE",
     "qty": 6,
     "uom": "EA",
     "source": "TankFarm_Ph2_Materials.docx"
    },
    {
     "raw": "4 jts | 4\" | BE",
-    "description": "Carbon Steel Pipe – SCH 80 SMLS A106B | Size: 4\" | Ends: BE | Pipe, SCH 80, seamless, A106B",
+    "description": "4\" carbon steel pipe, SCH 80 SMLS A106B, BE",
     "qty": 4,
     "uom": "EA",
     "source": "TankFarm_Ph2_Materials.docx"
    },
    {
     "raw": "8 jts | 1\" | PE",
-    "description": "Carbon Steel Pipe – SCH 80 SMLS A106B | Size: 1\" | Ends: PE | Pipe, SCH 80, seamless, A106B",
+    "description": "1\" carbon steel pipe, SCH 80 SMLS A106B, PE",
     "qty": 8,
     "uom": "EA",
     "source": "TankFarm_Ph2_Materials.docx"
    },
    {
     "raw": "24 | 1\" | 90 elbow",
-    "description": "Socket Weld Fittings – 3000# A105 | Size: 1\" | Item: 90 elbow | Socket weld fitting, 3000#, A105",
+    "description": "1\" 90 elbow, socket weld fitting, 3000# A105",
     "qty": 24,
     "uom": "EA",
     "source": "TankFarm_Ph2_Materials.docx"
    },
    {
     "raw": "12 | 1\" | Tee",
-    "description": "Socket Weld Fittings – 3000# A105 | Size: 1\" | Item: Tee | Socket weld fitting, 3000#, A105",
+    "description": "1\" tee, socket weld fitting, 3000# A105",
     "qty": 12,
     "uom": "EA",
     "source": "TankFarm_Ph2_Materials.docx"
    },
    {
     "raw": "30 | 3/4\" | Coupling, full",
-    "description": "Socket Weld Fittings – 3000# A105 | Size: 3/4\" | Item: Coupling, full | Socket weld fitting, 3000#, A105",
+    "description": "3/4\" coupling, full, socket weld fitting, 3000# A105",
     "qty": 30,
     "uom": "EA",
     "source": "TankFarm_Ph2_Materials.docx"
    },
    {
     "raw": "16 | 1/2\" | Union",
-    "description": "Socket Weld Fittings – 3000# A105 | Size: 1/2\" | Item: Union | Socket weld fitting, 3000#, A105",
+    "description": "1/2\" union, socket weld fitting, 3000# A105",
     "qty": 16,
     "uom": "EA",
     "source": "TankFarm_Ph2_Materials.docx"
    },
    {
     "raw": "20 | 2\" | Half coupling",
-    "description": "Socket Weld Fittings – 3000# A105 | Size: 2\" | Item: Half coupling | Socket weld fitting, 3000#, A105",
+    "description": "2\" half coupling, socket weld fitting, 3000# A105",
     "qty": 20,
     "uom": "EA",
     "source": "TankFarm_Ph2_Materials.docx"
@@ -72,12 +72,12 @@
  "meta": {
   "model": "gpt-5-mini",
   "usage": {
-   "prompt_tokens": 1586,
-   "completion_tokens": 1733,
+   "prompt_tokens": 1771,
+   "completion_tokens": 1890,
    "prompt_tokens_details": {
     "cached_tokens": 0
    }
   },
-  "usd": 0.003863
+  "usd": 0.004223
  }
 }

@@ -6,7 +6,7 @@
   "line_items": [
    {
     "raw": "12 jts - 2\" SCH 40 A53B ERW black pipe, PE",
-    "description": "2\" SCH 40 A53B ERW black pipe, PE",
+    "description": "2\" pipe, SCH 40 A53B ERW, black, PE",
     "qty": 12,
     "uom": "EA",
     "source": "body"
@@ -27,7 +27,7 @@
    },
    {
     "raw": "200 ft - 3/4\" SCH 40 galvanized pipe, TBE",
-    "description": "3/4\" SCH 40 galvanized pipe, TBE",
+    "description": "3/4\" galvanized pipe, SCH 40, TBE",
     "qty": 200,
     "uom": "FT",
     "source": "body"
@@ -44,12 +44,12 @@
  "meta": {
   "model": "gpt-5-mini",
   "usage": {
-   "prompt_tokens": 1628,
-   "completion_tokens": 1877,
+   "prompt_tokens": 1813,
+   "completion_tokens": 792,
    "prompt_tokens_details": {
-    "cached_tokens": 1152
+    "cached_tokens": 1408
    }
   },
-  "usd": 0.003902
+  "usd": 0.00172
  }
 }

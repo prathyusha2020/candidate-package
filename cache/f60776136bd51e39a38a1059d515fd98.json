@@ -1,54 +1,54 @@
 {
  "answer": {
   "classification": "rfq",
-  "needs_review": false,
-  "review_reason": null,
+  "needs_review": true,
+  "review_reason": "Image is mostly readable but line '4 - ,, tee' is missing the inch size; also '6 - 1\" x 4\"' omits the word 'galv nipple' though likely intended—please confirm sizes/descriptions before quoting.",
   "line_items": [
    {
     "raw": "8 - 2\" galv 90 elbow",
-    "description": "2\" galvanized 90° elbow (galv 90 elbow)",
+    "description": "2\" galv 90 elbow",
     "qty": 8,
     "uom": "EA",
     "source": "IMG_4172.jpeg"
    },
    {
     "raw": "4 - ,, tee",
-    "description": "2\" galvanized tee (ditto inches from previous line)",
+    "description": "tee (size not specified on note)",
     "qty": 4,
     "uom": "EA",
     "source": "IMG_4172.jpeg"
    },
    {
     "raw": "6 - 1\" x 3\" galv nipple",
-    "description": "1\" x 3\" galvanized nipple",
+    "description": "1\" x 3\" galv nipple",
     "qty": 6,
     "uom": "EA",
     "source": "IMG_4172.jpeg"
    },
    {
     "raw": "6 - 1\" x 4\"",
-    "description": "1\" x 4\" galvanized nipple (same item type as the 1\" x 3\" galv nipple line)",
+    "description": "1\" x 4\" galv nipple (nipple word omitted on note but implied by previous line)",
     "qty": 6,
     "uom": "EA",
     "source": "IMG_4172.jpeg"
    },
    {
     "raw": "12 - 2\" galv coupling",
-    "description": "2\" galvanized coupling",
+    "description": "2\" galv coupling",
     "qty": 12,
     "uom": "EA",
     "source": "IMG_4172.jpeg"
    },
    {
     "raw": "2 - 2\" galv union",
-    "description": "2\" galvanized union",
+    "description": "2\" galv union",
     "qty": 2,
     "uom": "EA",
     "source": "IMG_4172.jpeg"
    },
    {
     "raw": "5 jts - 2\" galv pipe",
-    "description": "2\" galvanized pipe, 5 joints (jts)",
+    "description": "2\" galv pipe",
     "qty": 5,
     "uom": "EA",
     "source": "IMG_4172.jpeg"
@@ -58,12 +58,12 @@
  "meta": {
   "model": "gpt-5-mini",
   "usage": {
-   "prompt_tokens": 2323,
-   "completion_tokens": 1488,
+   "prompt_tokens": 2508,
+   "completion_tokens": 2542,
    "prompt_tokens_details": {
     "cached_tokens": 0
    }
   },
-  "usd": 0.003557
+  "usd": 0.005711
  }
 }

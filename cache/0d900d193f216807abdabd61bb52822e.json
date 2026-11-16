@@ -6,56 +6,56 @@
   "line_items": [
    {
     "raw": "1) 20 jts - 2\"",
-    "description": "PIPE — 2\" pipe. All pipe SCH 40 A53B ERW, T&C.",
+    "description": "2\" pipe, SCH 40 A53B ERW, T&C",
     "qty": 20,
     "uom": "EA",
     "source": "body"
    },
    {
     "raw": "2) 14 jts - 3\"",
-    "description": "PIPE — 3\" pipe. All pipe SCH 40 A53B ERW, T&C.",
+    "description": "3\" pipe, SCH 40 A53B ERW, T&C",
     "qty": 14,
     "uom": "EA",
     "source": "body"
    },
    {
     "raw": "3) 6 jts - 4\"",
-    "description": "PIPE — 4\" pipe. All pipe SCH 40 A53B ERW, T&C.",
+    "description": "4\" pipe, SCH 40 A53B ERW, T&C",
     "qty": 6,
     "uom": "EA",
     "source": "body"
    },
    {
     "raw": "4) 12 ea - 2\" 90 ell",
-    "description": "2\" 90 ell. FITTINGS — fittings are 150# malleable iron, black.",
+    "description": "2\" 90 ell, 150# malleable iron, black",
     "qty": 12,
     "uom": "EA",
     "source": "body"
    },
    {
     "raw": "5) 8 ea - 2\" tee",
-    "description": "2\" tee. FITTINGS — fittings are 150# malleable iron, black.",
+    "description": "2\" tee, 150# malleable iron, black",
     "qty": 8,
     "uom": "EA",
     "source": "body"
    },
    {
     "raw": "7) 4 ea - 2\" gate, bronze, 125#",
-    "description": "2\" gate valve, bronze, 125#. VALVES section.",
+    "description": "2\" gate valve, bronze, 125#",
     "qty": 4,
     "uom": "EA",
     "source": "body"
    },
    {
     "raw": "8) 2 ea - 2\" check, swing, bronze, 125#",
-    "description": "2\" check valve, swing, bronze, 125#. VALVES section.",
+    "description": "2\" check valve, swing, bronze, 125#",
     "qty": 2,
     "uom": "EA",
     "source": "body"
    },
    {
     "raw": "9) 4 ea - 2\" ball, bronze, 125#",
-    "description": "2\" ball valve, bronze, 125#. VALVES section. (added per revision)",
+    "description": "2\" ball valve, bronze, 125#",
     "qty": 4,
     "uom": "EA",
     "source": "body"
@@ -65,12 +65,12 @@
  "meta": {
   "model": "gpt-5-mini",
   "usage": {
-   "prompt_tokens": 1935,
-   "completion_tokens": 1394,
+   "prompt_tokens": 2120,
+   "completion_tokens": 1610,
    "prompt_tokens_details": {
-    "cached_tokens": 0
+    "cached_tokens": 1408
    }
   },
-  "usd": 0.003272
+  "usd": 0.003433
  }
 }

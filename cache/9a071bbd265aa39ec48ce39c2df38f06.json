@@ -1,0 +1,76 @@
+{
+ "answer": {
+  "classification": "rfq",
+  "needs_review": false,
+  "review_reason": null,
+  "line_items": [
+   {
+    "raw": "1 | 12 | EA | 6\" | 90 LR elbow",
+    "description": "6\" 90 LR elbow, BW, SCH 40, A234 WPB",
+    "qty": 12,
+    "uom": "EA",
+    "source": "Tank14_Piping_RevB.xlsx"
+   },
+   {
+    "raw": "2 | 6 | EA | 6\" | 45 elbow",
+    "description": "6\" 45 elbow, BW, SCH 40, A234 WPB",
+    "qty": 6,
+    "uom": "EA",
+    "source": "Tank14_Piping_RevB.xlsx"
+   },
+   {
+    "raw": "3 | 4 | EA | 8\" | 90 LR elbow",
+    "description": "8\" 90 LR elbow, BW, SCH 40, A234 WPB",
+    "qty": 4,
+    "uom": "EA",
+    "source": "Tank14_Piping_RevB.xlsx"
+   },
+   {
+    "raw": "4 | 4 | EA | 6\" | Tee, straight",
+    "description": "6\" tee, straight, BW, SCH 40, A234 WPB",
+    "qty": 4,
+    "uom": "EA",
+    "source": "Tank14_Piping_RevB.xlsx"
+   },
+   {
+    "raw": "5 | 3 | EA | 8\" x 6\" | Reducer, concentric",
+    "description": "8\" x 6\" reducer, concentric, BW, SCH 40, A234 WPB",
+    "qty": 3,
+    "uom": "EA",
+    "source": "Tank14_Piping_RevB.xlsx"
+   },
+   {
+    "raw": "6 | 2 | EA | 6\" x 4\" | Reducer, concentric, SCH 80",
+    "description": "6\" x 4\" reducer, concentric, BW, SCH 80, A234 WPB",
+    "qty": 2,
+    "uom": "EA",
+    "source": "Tank14_Piping_RevB.xlsx"
+   },
+   {
+    "raw": "7 | 2 | EA | 8\" | Cap",
+    "description": "8\" cap, BW, SCH 40, A234 WPB",
+    "qty": 2,
+    "uom": "EA",
+    "source": "Tank14_Piping_RevB.xlsx"
+   },
+   {
+    "raw": "8 | 2 | EA | 6\" | Cap",
+    "description": "6\" cap, BW, SCH 40, A234 WPB",
+    "qty": 2,
+    "uom": "EA",
+    "source": "Tank14_Piping_RevB.xlsx"
+   }
+  ]
+ },
+ "meta": {
+  "model": "gpt-5-mini",
+  "usage": {
+   "prompt_tokens": 1836,
+   "completion_tokens": 1976,
+   "prompt_tokens_details": {
+    "cached_tokens": 1408
+   }
+  },
+  "usd": 0.004094
+ }
+}

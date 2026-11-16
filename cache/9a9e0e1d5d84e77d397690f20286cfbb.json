@@ -6,56 +6,56 @@
   "line_items": [
    {
     "raw": "1) 20 jts - 2\"",
-    "description": "PIPE - All pipe SCH 40 A53B ERW, T&C | 2\" pipe",
+    "description": "2\" pipe, SCH 40 A53B ERW, T&C",
     "qty": 20,
     "uom": "EA",
     "source": "body"
    },
    {
     "raw": "2) 10 jts - 3\"",
-    "description": "PIPE - All pipe SCH 40 A53B ERW, T&C | 3\" pipe",
+    "description": "3\" pipe, SCH 40 A53B ERW, T&C",
     "qty": 10,
     "uom": "EA",
     "source": "body"
    },
    {
     "raw": "3) 6 jts - 4\"",
-    "description": "PIPE - All pipe SCH 40 A53B ERW, T&C | 4\" pipe",
+    "description": "4\" pipe, SCH 40 A53B ERW, T&C",
     "qty": 6,
     "uom": "EA",
     "source": "body"
    },
    {
     "raw": "4) 12 ea - 2\" 90 ell",
-    "description": "FITTINGS - fittings are 150# malleable iron, black | 2\" 90 ell",
+    "description": "2\" 90° elbow, 150# malleable iron, black",
     "qty": 12,
     "uom": "EA",
     "source": "body"
    },
    {
     "raw": "5) 8 ea - 2\" tee",
-    "description": "FITTINGS - fittings are 150# malleable iron, black | 2\" tee",
+    "description": "2\" tee, 150# malleable iron, black",
     "qty": 8,
     "uom": "EA",
     "source": "body"
    },
    {
     "raw": "6) 6 ea - 2\" union",
-    "description": "FITTINGS - fittings are 150# malleable iron, black | 2\" union",
+    "description": "2\" union, 150# malleable iron, black",
     "qty": 6,
     "uom": "EA",
     "source": "body"
    },
    {
     "raw": "7) 4 ea - 2\" gate, bronze, 125#",
-    "description": "VALVES | 2\" gate valve, bronze, 125#",
+    "description": "2\" gate valve, bronze, 125#",
     "qty": 4,
     "uom": "EA",
     "source": "body"
    },
    {
     "raw": "8) 2 ea - 2\" check, swing, bronze, 125#",
-    "description": "VALVES | 2\" check valve, swing, bronze, 125#",
+    "description": "2\" swing check valve, bronze, 125#",
     "qty": 2,
     "uom": "EA",
     "source": "body"
@@ -65,12 +65,12 @@
  "meta": {
   "model": "gpt-5-mini",
   "usage": {
-   "prompt_tokens": 1545,
-   "completion_tokens": 1458,
+   "prompt_tokens": 1730,
+   "completion_tokens": 1513,
    "prompt_tokens_details": {
-    "cached_tokens": 0
+    "cached_tokens": 1408
    }
   },
-  "usd": 0.003302
+  "usd": 0.003142
  }
 }

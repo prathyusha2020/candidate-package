@@ -154,10 +154,16 @@ def mark_duplicates(records: dict, emails: dict) -> None:
         sig = signature(eid)
         if not sig:
             continue
+        rec = records[eid]
         for oid, osig in seen:
-            same = len(sig & osig) / len(sig | osig) >= 0.9
-            if same and records[oid]["classification"] == records[eid]["classification"] and emails[eid]["date"] - emails[oid]["date"] <= DUP_WINDOW:
-                records[eid] = {**blank(records[oid]["classification"]), "duplicate_of": oid}
+            orig = records[oid]
+            overlap = len(sig & osig) / len(sig | osig)
+            # Identical content is a resend whatever the model called it. Nearly identical only
+            # counts when it is not a reply in a thread - a revision legitimately differs by one line.
+            near = overlap >= 0.9 and not rec["revises"] and rec["classification"] == orig["classification"]
+            same_kind = (rec["classification"] == "purchase_order") == (orig["classification"] == "purchase_order")
+            if (overlap == 1 or near) and same_kind and emails[eid]["date"] - emails[oid]["date"] <= DUP_WINDOW:
+                records[eid] = {**blank(orig["classification"]), "duplicate_of": oid}
                 break
         else:
             seen.append((eid, sig))

@@ -6,42 +6,42 @@
   "line_items": [
    {
     "raw": "10   90° elbow   1/2″",
-    "description": "90° elbow, 316 SS, THREADED, 3000#; size 1/2″",
+    "description": "1/2\" 90° elbow, 316 SS, THREADED, 3000#",
     "qty": 10,
     "uom": "EA",
     "source": "body"
    },
    {
     "raw": "6   45° elbow   1/2″",
-    "description": "45° elbow, 316 SS, THREADED, 3000#; size 1/2″",
+    "description": "1/2\" 45° elbow, 316 SS, THREADED, 3000#",
     "qty": 6,
     "uom": "EA",
     "source": "body"
    },
    {
     "raw": "8   Tee   3/4″",
-    "description": "Tee, 316 SS, THREADED, 3000#; size 3/4″",
+    "description": "3/4\" Tee, 316 SS, THREADED, 3000#",
     "qty": 8,
     "uom": "EA",
     "source": "body"
    },
    {
     "raw": "12   Coupling, full   1/2″",
-    "description": "Coupling, full, 316 SS, THREADED, 3000#; size 1/2″",
+    "description": "1/2\" Coupling, full, 316 SS, THREADED, 3000#",
     "qty": 12,
     "uom": "EA",
     "source": "body"
    },
    {
     "raw": "4   Union   1/2″",
-    "description": "Union, 316 SS, THREADED, 3000#; size 1/2″",
+    "description": "1/2\" Union, 316 SS, THREADED, 3000#",
     "qty": 4,
     "uom": "EA",
     "source": "body"
    },
    {
     "raw": "6   Hex head plug   3/4″",
-    "description": "Hex head plug, 316 SS, THREADED, 3000#; size 3/4″",
+    "description": "3/4\" Hex head plug, 316 SS, THREADED, 3000#",
     "qty": 6,
     "uom": "EA",
     "source": "body"
@@ -51,12 +51,12 @@
  "meta": {
   "model": "gpt-5-mini",
   "usage": {
-   "prompt_tokens": 1500,
-   "completion_tokens": 794,
+   "prompt_tokens": 1685,
+   "completion_tokens": 1289,
    "prompt_tokens_details": {
     "cached_tokens": 0
    }
   },
-  "usd": 0.001963
+  "usd": 0.002999
  }
 }

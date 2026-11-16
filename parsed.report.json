@@ -1,9 +1,9 @@
 {
   "total": {
     "calls": 23,
-    "prompt_tokens": 51116,
-    "completion_tokens": 40829,
-    "usd": 0.093661,
+    "prompt_tokens": 55371,
+    "completion_tokens": 39417,
+    "usd": 0.091093,
     "emails": 24,
     "cache_hits": 0,
     "failed": 0,
@@ -14,110 +14,110 @@
     "E001": {
       "calls": 1,
       "cached": false,
-      "prompt_tokens": 1628,
-      "completion_tokens": 1877,
-      "usd": 0.003902,
+      "prompt_tokens": 1813,
+      "completion_tokens": 792,
+      "usd": 0.00172,
       "model": "gpt-5-mini",
-      "seconds": 17.69
+      "seconds": 8.83
     },
     "E002": {
       "calls": 1,
       "cached": false,
-      "prompt_tokens": 1443,
-      "completion_tokens": 1614,
-      "usd": 0.00333,
+      "prompt_tokens": 1628,
+      "completion_tokens": 1607,
+      "usd": 0.003621,
       "model": "gpt-5-mini",
-      "seconds": 15.37
+      "seconds": 17.09
     },
     "E003": {
       "calls": 1,
       "cached": false,
-      "prompt_tokens": 1545,
-      "completion_tokens": 1458,
-      "usd": 0.003302,
+      "prompt_tokens": 1730,
+      "completion_tokens": 1513,
+      "usd": 0.003142,
       "model": "gpt-5-mini",
-      "seconds": 13.93
+      "seconds": 16.45
     },
     "E004": {
       "calls": 1,
       "cached": false,
-      "prompt_tokens": 1935,
-      "completion_tokens": 1394,
-      "usd": 0.003272,
+      "prompt_tokens": 2120,
+      "completion_tokens": 1610,
+      "usd": 0.003433,
       "model": "gpt-5-mini",
-      "seconds": 13.72
+      "seconds": 17.29
     },
     "E005": {
       "calls": 1,
       "cached": false,
-      "prompt_tokens": 1651,
-      "completion_tokens": 1646,
-      "usd": 0.003446,
+      "prompt_tokens": 1836,
+      "completion_tokens": 1976,
+      "usd": 0.004094,
       "model": "gpt-5-mini",
-      "seconds": 15.32
+      "seconds": 20.69
     },
     "E006": {
       "calls": 1,
       "cached": false,
-      "prompt_tokens": 5017,
-      "completion_tokens": 4751,
-      "usd": 0.010756,
+      "prompt_tokens": 5202,
+      "completion_tokens": 4812,
+      "usd": 0.010925,
       "model": "gpt-5-mini",
-      "seconds": 46.99
+      "seconds": 42.9
     },
     "E007": {
       "calls": 1,
       "cached": false,
-      "prompt_tokens": 2323,
-      "completion_tokens": 1488,
-      "usd": 0.003557,
+      "prompt_tokens": 2508,
+      "completion_tokens": 2542,
+      "usd": 0.005711,
       "model": "gpt-5-mini",
-      "seconds": 16.32
+      "seconds": 23.59
     },
     "E008": {
       "calls": 1,
       "cached": false,
-      "prompt_tokens": 5028,
-      "completion_tokens": 4953,
-      "usd": 0.011163,
+      "prompt_tokens": 5213,
+      "completion_tokens": 3853,
+      "usd": 0.009009,
       "model": "gpt-5-mini",
-      "seconds": 49.99
+      "seconds": 31.86
     },
     "E009": {
       "calls": 1,
       "cached": false,
-      "prompt_tokens": 5145,
-      "completion_tokens": 4105,
-      "usd": 0.009496,
+      "prompt_tokens": 5330,
+      "completion_tokens": 3992,
+      "usd": 0.009317,
       "model": "gpt-5-mini",
-      "seconds": 41.67
+      "seconds": 32.78
     },
     "E010": {
       "calls": 1,
       "cached": false,
-      "prompt_tokens": 1639,
-      "completion_tokens": 1311,
-      "usd": 0.003032,
+      "prompt_tokens": 1824,
+      "completion_tokens": 1492,
+      "usd": 0.00344,
       "model": "gpt-5-mini",
-      "seconds": 14.23
+      "seconds": 13.58
     },
     "E011": {
       "calls": 1,
       "cached": false,
-      "prompt_tokens": 1763,
-      "completion_tokens": 225,
-      "usd": 0.000891,
+      "prompt_tokens": 1948,
+      "completion_tokens": 161,
+      "usd": 0.000809,
       "model": "gpt-5-mini",
-      "seconds": 3.1
+      "seconds": 2.63
     },
     "E012": {
       "calls": 1,
       "cached": false,
-      "prompt_tokens": 1650,
+      "prompt_tokens": 1835,
       "completion_tokens": 226,
-      "usd": 0.000865,
+      "usd": 0.000911,
       "model": "gpt-5-mini",
-      "seconds": 3.17
+      "seconds": 2.72
     },
     "E013": {
       "calls": 0,
@@ -126,106 +126,106 @@
       "completion_tokens": 0,
       "usd": 0.0,
       "note": "auto_reply by headers",
-      "seconds": 0.02
+      "seconds": 0.03
     },
     "E014": {
       "calls": 1,
       "cached": false,
-      "prompt_tokens": 1625,
-      "completion_tokens": 170,
-      "usd": 0.000746,
+      "prompt_tokens": 1810,
+      "completion_tokens": 224,
+      "usd": 0.000901,
       "model": "gpt-5-mini",
-      "seconds": 2.71
+      "seconds": 2.43
     },
     "E015": {
       "calls": 1,
       "cached": false,
-      "prompt_tokens": 3173,
-      "completion_tokens": 2330,
-      "usd": 0.005453,
+      "prompt_tokens": 3358,
+      "completion_tokens": 1329,
+      "usd": 0.003498,
       "model": "gpt-5-mini",
-      "seconds": 23.49
+      "seconds": 10.68
     },
     "E016": {
       "calls": 1,
       "cached": false,
-      "prompt_tokens": 1722,
-      "completion_tokens": 1968,
-      "usd": 0.004366,
+      "prompt_tokens": 1907,
+      "completion_tokens": 1061,
+      "usd": 0.002599,
       "model": "gpt-5-mini",
-      "seconds": 18.77
+      "seconds": 8.42
     },
     "E017": {
       "calls": 1,
       "cached": false,
-      "prompt_tokens": 1495,
-      "completion_tokens": 191,
-      "usd": 0.000756,
+      "prompt_tokens": 1680,
+      "completion_tokens": 173,
+      "usd": 0.000766,
       "model": "gpt-5-mini",
-      "seconds": 2.82
+      "seconds": 2.25
     },
     "E018": {
       "calls": 1,
       "cached": false,
-      "prompt_tokens": 1565,
-      "completion_tokens": 1186,
-      "usd": 0.002763,
+      "prompt_tokens": 1750,
+      "completion_tokens": 1663,
+      "usd": 0.003763,
       "model": "gpt-5-mini",
-      "seconds": 11.91
+      "seconds": 14.85
     },
     "E019": {
       "calls": 1,
       "cached": false,
-      "prompt_tokens": 1586,
-      "completion_tokens": 1733,
-      "usd": 0.003863,
+      "prompt_tokens": 1771,
+      "completion_tokens": 1890,
+      "usd": 0.004223,
       "model": "gpt-5-mini",
-      "seconds": 18.2
+      "seconds": 17.05
     },
     "E020": {
       "calls": 1,
       "cached": false,
-      "prompt_tokens": 1768,
-      "completion_tokens": 1126,
-      "usd": 0.002694,
+      "prompt_tokens": 1953,
+      "completion_tokens": 1247,
+      "usd": 0.002665,
       "model": "gpt-5-mini",
-      "seconds": 11.92
+      "seconds": 11.51
     },
     "E021": {
       "calls": 1,
       "cached": false,
-      "prompt_tokens": 2287,
-      "completion_tokens": 5423,
-      "usd": 0.011418,
+      "prompt_tokens": 2472,
+      "completion_tokens": 4751,
+      "usd": 0.01012,
       "model": "gpt-5-mini",
-      "seconds": 48.82
+      "seconds": 44.37
     },
     "E022": {
       "calls": 1,
       "cached": false,
-      "prompt_tokens": 1481,
-      "completion_tokens": 267,
-      "usd": 0.000904,
+      "prompt_tokens": 1666,
+      "completion_tokens": 274,
+      "usd": 0.000964,
       "model": "gpt-5-mini",
-      "seconds": 3.76
+      "seconds": 3.54
     },
     "E023": {
       "calls": 1,
       "cached": false,
-      "prompt_tokens": 2147,
-      "completion_tokens": 593,
-      "usd": 0.001723,
+      "prompt_tokens": 2332,
+      "completion_tokens": 940,
+      "usd": 0.002463,
       "model": "gpt-5-mini",
-      "seconds": 6.87
+      "seconds": 9.01
     },
     "E024": {
       "calls": 1,
       "cached": false,
-      "prompt_tokens": 1500,
-      "completion_tokens": 794,
-      "usd": 0.001963,
+      "prompt_tokens": 1685,
+      "completion_tokens": 1289,
+      "usd": 0.002999,
       "model": "gpt-5-mini",
-      "seconds": 8.77
+      "seconds": 12.25
     }
   }
 }

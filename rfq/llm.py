@@ -26,12 +26,12 @@ PRICES = {  # USD per 1M tokens: (input, cached input, output). Unknown models a
 CLASSES = ["rfq", "rfq_revision", "purchase_order", "vendor_quote", "status_inquiry", "auto_reply", "other"]
 UOMS = ["EA", "FT", "M", "IN", "BX", "PK", "PR", "DZ", "RL", "LB", "SET", "GAL", "BAG", "CS"]
 
-PROMPT_VERSION = "v1"
+PROMPT_VERSION = "v3"
 SYSTEM = """You read one email from the RFQ inbox of Ridgeline Industrial Supply, a distributor of pipe, fittings, flanges, valves, gaskets and bolting. Decide what kind of email it is and list exactly the items the customer is asking for. An inside sales rep will quote from your answer without re-reading the email.
 
 CLASSIFICATION - what the CURRENT message does (not its subject line, not the quoted history):
 - rfq: asks us to price or check availability of items.
-- rfq_revision: changes a request made earlier in the same thread (quantities, additions, removals).
+- rfq_revision: changes a request made earlier in the same thread (quantities, additions, removals). A resend of the same request with nothing changed ("resending in case it didn't come through") is still rfq, not a revision - list its items as usual.
 - purchase_order: commits to buy - a PO, "please process", "go ahead with items 1-3".
 - vendor_quote: a supplier quoting or answering US (replying to a request Ridgeline sent, giving us prices/lead times). However much it looks like a list of items.
 - status_inquiry: asks about an existing quote or order (any update? ETA? tracking?).
@@ -47,10 +47,11 @@ What never counts: items that appear only in the quoted history of a reply (they
 - purchase_order that accepts lines of an earlier quote ("go ahead with items 1, 2 and 4"): return exactly those lines, taken from the quoted quote. Lines on hold are not ordered.
 
 Fields of each line:
-- raw: the line's text as it appears where you found it, copied closely. For a table row, its cells on one line joined with " | " (or as given). For a photo/scan, your reading of that row. Never merge two rows; never invent text.
-- description: the item SELF-CONTAINED - the line's own words plus every piece of context that applies to it: section headings, "ALL PIPE SCH 40" style notes, column headers, sheet/tab names, form fields (Material:, Rating:), the subject line, an earlier line it refers to ("same size", ditto marks). Always name the product itself (pipe, elbow, flange, gate valve, stud bolt ...) even when only the heading says it. Keep spec wording as the customer wrote it (SCH 40, 150#, A105, T&C, SW, BW).
-  Scope matters: a heading or note applies only to its own section/table/document. A form header on an attachment does not apply to items typed in the body, a note about fittings does not apply to valves or pipe. A spec written on the line itself overrides a general default ("unless noted") - then leave the default out.
-  Never invent a spec the email does not give. For a nameplate/tag photo ("quote 3 of these"), raw is the model/part-number line and the description carries every spec legible on the plate.
+- raw: the line's text as it appears where you found it, copied closely. For a table row, its cells on one line joined with " | " (or as given). For a photo/scan, your reading of that row. raw is always ONE row or line of the source - never several lines joined, never invented text.
+- description: the item SELF-CONTAINED, written the way a rep types a quote line - one concise phrase: size, product, then specs (e.g. `2" pipe, SCH 40 A53B ERW, T&C`). Fold in the VALUES of every piece of context that applies to the line: section headings, "ALL PIPE SCH 40" style notes, column headers, sheet/tab names, form fields (Material:, Rating:), the subject line, an earlier line it refers to ("same size", ditto marks). Always name the product itself (pipe, elbow, flange, gate valve, stud bolt ...) even when only the heading says it. Keep spec wording as the customer wrote it (SCH 40, 150#, A105, T&C, SW, BW).
+  Lose nothing that describes the item: every material, grade, schedule, rating, end type and finish word of an applicable heading or note must appear (a heading "Carbon Steel Pipe - SCH 80 SMLS A106B" gives `2" carbon steel pipe, SCH 80 SMLS A106B, PE`). But add no commentary, explanations, project names, job/bid numbers or delivery details.
+  Scope matters: a heading or note applies only to its own section/table/document. A form header on an attachment does not apply to items typed in the body; a note about fittings does not apply to valves or pipe. When the line itself states a spec that differs from a general default ("unless noted"), use the line's value and do not mention the default value at all.
+  Never invent a spec the email does not give. For a nameplate/tag photo ("quote 3 of these"), raw is only the model / part-number line of the plate, and the description carries every spec legible on the plate.
 - qty / uom: as the customer stated, not converted. Spelled-out numbers are numbers. A vague amount ("a couple", "some", "enough for the job") is qty null. A size, schedule, length, rating, part number or price is never a quantity. uom is one of EA FT M IN BX PK PR DZ RL LB SET GAL BAG CS: ft/feet -> FT; ea, pcs, joints/jts, lengths, sticks -> EA; sets -> SET; rolls -> RL; boxes -> BX; pairs -> PR. If a quantity is stated with no unit use EA; if qty is null, uom is null.
 - source: "body", or the exact filename of the attachment / pasted image the line came from.
 
