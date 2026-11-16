@@ -57,4 +57,4 @@ python tests/run_scenarios.py          # 24 hand-written edge-case emails (repla
 
 ## Recording
 
-(link to the screen recording goes here)
+https://www.loom.com/share/44cf747a64a447d3a144a15d50e63735
