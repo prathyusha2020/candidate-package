@@ -1,0 +1,55 @@
+{
+ "answer": {
+  "classification": "rfq",
+  "needs_review": false,
+  "review_reason": null,
+  "line_items": [
+   {
+    "raw": "10 of the 1/2 90s",
+    "description": "316 SS threaded 1/2 90s (elbows) — threaded fittings per subject",
+    "qty": 10,
+    "uom": "EA",
+    "source": "body"
+   },
+   {
+    "raw": "6 tees same size",
+    "description": "316 SS threaded 1/2 tees (same size as previous line)",
+    "qty": 6,
+    "uom": "EA",
+    "source": "body"
+   },
+   {
+    "raw": "plus a couple caps",
+    "description": "316 SS threaded caps, same size as previous lines (1/2)",
+    "qty": null,
+    "uom": null,
+    "source": "body"
+   },
+   {
+    "raw": "12 of the 3/4 couplings",
+    "description": "316 SS threaded 3/4 couplings",
+    "qty": 12,
+    "uom": "EA",
+    "source": "body"
+   },
+   {
+    "raw": "20 of the 3/4 close nipples",
+    "description": "316 SS threaded 3/4 close nipples",
+    "qty": 20,
+    "uom": "EA",
+    "source": "body"
+   }
+  ]
+ },
+ "meta": {
+  "model": "gpt-5-mini",
+  "usage": {
+   "prompt_tokens": 1443,
+   "completion_tokens": 1614,
+   "prompt_tokens_details": {
+    "cached_tokens": 1152
+   }
+  },
+  "usd": 0.00333
+ }
+}

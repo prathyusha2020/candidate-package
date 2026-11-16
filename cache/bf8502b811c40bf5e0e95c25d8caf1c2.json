@@ -1,0 +1,328 @@
+{
+ "answer": {
+  "classification": "rfq",
+  "needs_review": false,
+  "review_reason": null,
+  "line_items": [
+   {
+    "raw": "1 7 EA 1/2\" WELD NECK FLANGE, STD BORE",
+    "description": "WELD NECK FLANGE, STD BORE; SIZE 1/2\"; Material: ASTM A105; Rating: 150# RF",
+    "qty": 7,
+    "uom": "EA",
+    "source": "RFQ_PF-26-3091.pdf"
+   },
+   {
+    "raw": "2 3 EA 3/4\" WELD NECK FLANGE, STD BORE",
+    "description": "WELD NECK FLANGE, STD BORE; SIZE 3/4\"; Material: ASTM A105; Rating: 150# RF",
+    "qty": 3,
+    "uom": "EA",
+    "source": "RFQ_PF-26-3091.pdf"
+   },
+   {
+    "raw": "3 8 EA 1\" WELD NECK FLANGE, STD BORE",
+    "description": "WELD NECK FLANGE, STD BORE; SIZE 1\"; Material: ASTM A105; Rating: 150# RF",
+    "qty": 8,
+    "uom": "EA",
+    "source": "RFQ_PF-26-3091.pdf"
+   },
+   {
+    "raw": "4 4 EA 1-1/4\" WELD NECK FLANGE, STD BORE",
+    "description": "WELD NECK FLANGE, STD BORE; SIZE 1-1/4\"; Material: ASTM A105; Rating: 150# RF",
+    "qty": 4,
+    "uom": "EA",
+    "source": "RFQ_PF-26-3091.pdf"
+   },
+   {
+    "raw": "5 9 EA 1-1/2\" WELD NECK FLANGE, STD BORE",
+    "description": "WELD NECK FLANGE, STD BORE; SIZE 1-1/2\"; Material: ASTM A105; Rating: 150# RF",
+    "qty": 9,
+    "uom": "EA",
+    "source": "RFQ_PF-26-3091.pdf"
+   },
+   {
+    "raw": "6 5 EA 2\" WELD NECK FLANGE, STD BORE",
+    "description": "WELD NECK FLANGE, STD BORE; SIZE 2\"; Material: ASTM A105; Rating: 150# RF",
+    "qty": 5,
+    "uom": "EA",
+    "source": "RFQ_PF-26-3091.pdf"
+   },
+   {
+    "raw": "7 10 EA 2-1/2\" WELD NECK FLANGE, STD BORE",
+    "description": "WELD NECK FLANGE, STD BORE; SIZE 2-1/2\"; Material: ASTM A105; Rating: 150# RF",
+    "qty": 10,
+    "uom": "EA",
+    "source": "RFQ_PF-26-3091.pdf"
+   },
+   {
+    "raw": "8 6 EA 3\" WELD NECK FLANGE, STD BORE",
+    "description": "WELD NECK FLANGE, STD BORE; SIZE 3\"; Material: ASTM A105; Rating: 150# RF",
+    "qty": 6,
+    "uom": "EA",
+    "source": "RFQ_PF-26-3091.pdf"
+   },
+   {
+    "raw": "9 2 EA 4\" WELD NECK FLANGE, STD BORE",
+    "description": "WELD NECK FLANGE, STD BORE; SIZE 4\"; Material: ASTM A105; Rating: 150# RF",
+    "qty": 2,
+    "uom": "EA",
+    "source": "RFQ_PF-26-3091.pdf"
+   },
+   {
+    "raw": "10 7 EA 6\" WELD NECK FLANGE, STD BORE",
+    "description": "WELD NECK FLANGE, STD BORE; SIZE 6\"; Material: ASTM A105; Rating: 150# RF",
+    "qty": 7,
+    "uom": "EA",
+    "source": "RFQ_PF-26-3091.pdf"
+   },
+   {
+    "raw": "11 3 EA 8\" WELD NECK FLANGE, STD BORE",
+    "description": "WELD NECK FLANGE, STD BORE; SIZE 8\"; Material: ASTM A105; Rating: 150# RF",
+    "qty": 3,
+    "uom": "EA",
+    "source": "RFQ_PF-26-3091.pdf"
+   },
+   {
+    "raw": "12 8 EA 10\" WELD NECK FLANGE, STD BORE",
+    "description": "WELD NECK FLANGE, STD BORE; SIZE 10\"; Material: ASTM A105; Rating: 150# RF",
+    "qty": 8,
+    "uom": "EA",
+    "source": "RFQ_PF-26-3091.pdf"
+   },
+   {
+    "raw": "13 4 EA 12\" WELD NECK FLANGE, STD BORE",
+    "description": "WELD NECK FLANGE, STD BORE; SIZE 12\"; Material: ASTM A105; Rating: 150# RF",
+    "qty": 4,
+    "uom": "EA",
+    "source": "RFQ_PF-26-3091.pdf"
+   },
+   {
+    "raw": "14 9 EA 14\" WELD NECK FLANGE, STD BORE",
+    "description": "WELD NECK FLANGE, STD BORE; SIZE 14\"; Material: ASTM A105; Rating: 150# RF",
+    "qty": 9,
+    "uom": "EA",
+    "source": "RFQ_PF-26-3091.pdf"
+   },
+   {
+    "raw": "15 5 EA 1/2\" SLIP-ON FLANGE",
+    "description": "SLIP-ON FLANGE; SIZE 1/2\"; Material: ASTM A105; Rating: 150# RF",
+    "qty": 5,
+    "uom": "EA",
+    "source": "RFQ_PF-26-3091.pdf"
+   },
+   {
+    "raw": "16 10 EA 3/4\" SLIP-ON FLANGE",
+    "description": "SLIP-ON FLANGE; SIZE 3/4\"; Material: ASTM A105; Rating: 150# RF",
+    "qty": 10,
+    "uom": "EA",
+    "source": "RFQ_PF-26-3091.pdf"
+   },
+   {
+    "raw": "17 6 EA 1\" SLIP-ON FLANGE",
+    "description": "SLIP-ON FLANGE; SIZE 1\"; Material: ASTM A105; Rating: 150# RF",
+    "qty": 6,
+    "uom": "EA",
+    "source": "RFQ_PF-26-3091.pdf"
+   },
+   {
+    "raw": "18 2 EA 1-1/4\" SLIP-ON FLANGE",
+    "description": "SLIP-ON FLANGE; SIZE 1-1/4\"; Material: ASTM A105; Rating: 150# RF",
+    "qty": 2,
+    "uom": "EA",
+    "source": "RFQ_PF-26-3091.pdf"
+   },
+   {
+    "raw": "19 7 EA 1-1/2\" SLIP-ON FLANGE",
+    "description": "SLIP-ON FLANGE; SIZE 1-1/2\"; Material: ASTM A105; Rating: 150# RF",
+    "qty": 7,
+    "uom": "EA",
+    "source": "RFQ_PF-26-3091.pdf"
+   },
+   {
+    "raw": "20 3 EA 2\" SLIP-ON FLANGE",
+    "description": "SLIP-ON FLANGE; SIZE 2\"; Material: ASTM A105; Rating: 150# RF",
+    "qty": 3,
+    "uom": "EA",
+    "source": "RFQ_PF-26-3091.pdf"
+   },
+   {
+    "raw": "21 8 EA 2-1/2\" SLIP-ON FLANGE",
+    "description": "SLIP-ON FLANGE; SIZE 2-1/2\"; Material: ASTM A105; Rating: 150# RF",
+    "qty": 8,
+    "uom": "EA",
+    "source": "RFQ_PF-26-3091.pdf"
+   },
+   {
+    "raw": "22 4 EA 3\" SLIP-ON FLANGE",
+    "description": "SLIP-ON FLANGE; SIZE 3\"; Material: ASTM A105; Rating: 150# RF",
+    "qty": 4,
+    "uom": "EA",
+    "source": "RFQ_PF-26-3091.pdf"
+   },
+   {
+    "raw": "23 9 EA 4\" SLIP-ON FLANGE",
+    "description": "SLIP-ON FLANGE; SIZE 4\"; Material: ASTM A105; Rating: 150# RF",
+    "qty": 9,
+    "uom": "EA",
+    "source": "RFQ_PF-26-3091.pdf"
+   },
+   {
+    "raw": "24 5 EA 6\" SLIP-ON FLANGE",
+    "description": "SLIP-ON FLANGE; SIZE 6\"; Material: ASTM A105; Rating: 150# RF",
+    "qty": 5,
+    "uom": "EA",
+    "source": "RFQ_PF-26-3091.pdf"
+   },
+   {
+    "raw": "25 10 EA 8\" SLIP-ON FLANGE",
+    "description": "SLIP-ON FLANGE; SIZE 8\"; Material: ASTM A105; Rating: 150# RF",
+    "qty": 10,
+    "uom": "EA",
+    "source": "RFQ_PF-26-3091.pdf"
+   },
+   {
+    "raw": "26 6 EA 10\" SLIP-ON FLANGE",
+    "description": "SLIP-ON FLANGE; SIZE 10\"; Material: ASTM A105; Rating: 150# RF",
+    "qty": 6,
+    "uom": "EA",
+    "source": "RFQ_PF-26-3091.pdf"
+   },
+   {
+    "raw": "27 2 EA 12\" SLIP-ON FLANGE",
+    "description": "SLIP-ON FLANGE; SIZE 12\"; Material: ASTM A105; Rating: 150# RF",
+    "qty": 2,
+    "uom": "EA",
+    "source": "RFQ_PF-26-3091.pdf"
+   },
+   {
+    "raw": "28 7 EA 14\" SLIP-ON FLANGE",
+    "description": "SLIP-ON FLANGE; SIZE 14\"; Material: ASTM A105; Rating: 150# RF",
+    "qty": 7,
+    "uom": "EA",
+    "source": "RFQ_PF-26-3091.pdf"
+   },
+   {
+    "raw": "29 3 EA 1/2\" BLIND FLANGE",
+    "description": "BLIND FLANGE; SIZE 1/2\"; Material: ASTM A105; Rating: 150# RF",
+    "qty": 3,
+    "uom": "EA",
+    "source": "RFQ_PF-26-3091.pdf"
+   },
+   {
+    "raw": "30 8 EA 3/4\" BLIND FLANGE",
+    "description": "BLIND FLANGE; SIZE 3/4\"; Material: ASTM A105; Rating: 150# RF",
+    "qty": 8,
+    "uom": "EA",
+    "source": "RFQ_PF-26-3091.pdf"
+   },
+   {
+    "raw": "31 4 EA 1\" BLIND FLANGE",
+    "description": "BLIND FLANGE; SIZE 1\"; Material: ASTM A105; Rating: 150# RF",
+    "qty": 4,
+    "uom": "EA",
+    "source": "RFQ_PF-26-3091.pdf"
+   },
+   {
+    "raw": "32 9 EA 1-1/4\" BLIND FLANGE",
+    "description": "BLIND FLANGE; SIZE 1-1/4\"; Material: ASTM A105; Rating: 150# RF",
+    "qty": 9,
+    "uom": "EA",
+    "source": "RFQ_PF-26-3091.pdf"
+   },
+   {
+    "raw": "33 5 EA 1-1/2\" BLIND FLANGE",
+    "description": "BLIND FLANGE; SIZE 1-1/2\"; Material: ASTM A105; Rating: 150# RF",
+    "qty": 5,
+    "uom": "EA",
+    "source": "RFQ_PF-26-3091.pdf"
+   },
+   {
+    "raw": "34 10 EA 2\" BLIND FLANGE",
+    "description": "BLIND FLANGE; SIZE 2\"; Material: ASTM A105; Rating: 150# RF",
+    "qty": 10,
+    "uom": "EA",
+    "source": "RFQ_PF-26-3091.pdf"
+   },
+   {
+    "raw": "35 6 EA 2-1/2\" BLIND FLANGE",
+    "description": "BLIND FLANGE; SIZE 2-1/2\"; Material: ASTM A105; Rating: 150# RF",
+    "qty": 6,
+    "uom": "EA",
+    "source": "RFQ_PF-26-3091.pdf"
+   },
+   {
+    "raw": "36 2 EA 3\" BLIND FLANGE",
+    "description": "BLIND FLANGE; SIZE 3\"; Material: ASTM A105; Rating: 150# RF",
+    "qty": 2,
+    "uom": "EA",
+    "source": "RFQ_PF-26-3091.pdf"
+   },
+   {
+    "raw": "37 7 EA 4\" BLIND FLANGE",
+    "description": "BLIND FLANGE; SIZE 4\"; Material: ASTM A105; Rating: 150# RF",
+    "qty": 7,
+    "uom": "EA",
+    "source": "RFQ_PF-26-3091.pdf"
+   },
+   {
+    "raw": "38 3 EA 6\" BLIND FLANGE",
+    "description": "BLIND FLANGE; SIZE 6\"; Material: ASTM A105; Rating: 150# RF",
+    "qty": 3,
+    "uom": "EA",
+    "source": "RFQ_PF-26-3091.pdf"
+   },
+   {
+    "raw": "39 8 EA 8\" BLIND FLANGE",
+    "description": "BLIND FLANGE; SIZE 8\"; Material: ASTM A105; Rating: 150# RF",
+    "qty": 8,
+    "uom": "EA",
+    "source": "RFQ_PF-26-3091.pdf"
+   },
+   {
+    "raw": "40 4 EA 10\" BLIND FLANGE",
+    "description": "BLIND FLANGE; SIZE 10\"; Material: ASTM A105; Rating: 150# RF",
+    "qty": 4,
+    "uom": "EA",
+    "source": "RFQ_PF-26-3091.pdf"
+   },
+   {
+    "raw": "41 9 EA 12\" BLIND FLANGE",
+    "description": "BLIND FLANGE; SIZE 12\"; Material: ASTM A105; Rating: 150# RF",
+    "qty": 9,
+    "uom": "EA",
+    "source": "RFQ_PF-26-3091.pdf"
+   },
+   {
+    "raw": "42 5 EA 14\" BLIND FLANGE",
+    "description": "BLIND FLANGE; SIZE 14\"; Material: ASTM A105; Rating: 150# RF",
+    "qty": 5,
+    "uom": "EA",
+    "source": "RFQ_PF-26-3091.pdf"
+   },
+   {
+    "raw": "2 sets of 4\" 150# spiral wound gaskets, 304 SS/graphite",
+    "description": "Spiral wound gasket; SIZE 4\"; Rating: 150#; Material: 304 SS outer/graphite filler; 2 sets",
+    "qty": 2,
+    "uom": "SET",
+    "source": "body"
+   },
+   {
+    "raw": "6 sets of 6\" 150# spiral wound gaskets, 304 SS/graphite",
+    "description": "Spiral wound gasket; SIZE 6\"; Rating: 150#; Material: 304 SS outer/graphite filler; 6 sets",
+    "qty": 6,
+    "uom": "SET",
+    "source": "body"
+   }
+  ]
+ },
+ "meta": {
+  "model": "gpt-5-mini",
+  "usage": {
+   "prompt_tokens": 5028,
+   "completion_tokens": 4953,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   }
+  },
+  "usd": 0.011163
+ }
+}

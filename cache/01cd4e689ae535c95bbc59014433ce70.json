@@ -1,0 +1,62 @@
+{
+ "answer": {
+  "classification": "purchase_order",
+  "needs_review": false,
+  "review_reason": null,
+  "line_items": [
+   {
+    "raw": "1 210 FT 2\" SCH 80 SMLS A106B pipe, PE, random lengths 11.85 2,488.50",
+    "description": "2\" SCH 80 SMLS A106B pipe, PE, random lengths. Required: 11/06/2026. Ship To: Tidewater Plant 2, 7700 Gulf Hwy, Port Arthur TX 77640. Mill test reports required with shipment.",
+    "qty": 210,
+    "uom": "FT",
+    "source": "PO_TPS-88213.pdf"
+   },
+   {
+    "raw": "2 24 EA 2\" 90 deg elbow, LR, BW, SCH 80, A234 WPB 14.20 340.80",
+    "description": "2\" 90 deg elbow, LR, BW, SCH 80, A234 WPB. Required: 11/06/2026. Ship To: Tidewater Plant 2, 7700 Gulf Hwy, Port Arthur TX 77640. Mill test reports required with shipment.",
+    "qty": 24,
+    "uom": "EA",
+    "source": "PO_TPS-88213.pdf"
+   },
+   {
+    "raw": "3 16 EA 2\" WN flange, 300# RF, A105, SCH 80 bore 31.75 508.00",
+    "description": "2\" WN flange, 300# RF, A105, SCH 80 bore. Required: 11/06/2026. Ship To: Tidewater Plant 2, 7700 Gulf Hwy, Port Arthur TX 77640. Mill test reports required with shipment.",
+    "qty": 16,
+    "uom": "EA",
+    "source": "PO_TPS-88213.pdf"
+   },
+   {
+    "raw": "4 16 EA 2\" spiral wound gasket, 316/graphite, 300#, w/ inner ring 6.40 102.40",
+    "description": "2\" spiral wound gasket, 316/graphite, 300#, w/ inner ring. Required: 11/06/2026. Ship To: Tidewater Plant 2, 7700 Gulf Hwy, Port Arthur TX 77640. Mill test reports required with shipment.",
+    "qty": 16,
+    "uom": "EA",
+    "source": "PO_TPS-88213.pdf"
+   },
+   {
+    "raw": "5 64 EA Stud bolt B7, 5/8\"-11 x 3-3/4\", w/ 2 heavy hex nuts 1.85 118.40",
+    "description": "Stud bolt B7, 5/8\"-11 x 3-3/4\", w/ 2 heavy hex nuts. Required: 11/06/2026. Ship To: Tidewater Plant 2, 7700 Gulf Hwy, Port Arthur TX 77640. Mill test reports required with shipment.",
+    "qty": 64,
+    "uom": "EA",
+    "source": "PO_TPS-88213.pdf"
+   },
+   {
+    "raw": "6 6 EA 2\" gate valve, 300# RF, A216 WCB, bolted bonnet 412.00 2,472.00",
+    "description": "2\" gate valve, 300# RF, A216 WCB, bolted bonnet. Required: 11/06/2026. Ship To: Tidewater Plant 2, 7700 Gulf Hwy, Port Arthur TX 77640. Mill test reports required with shipment.",
+    "qty": 6,
+    "uom": "EA",
+    "source": "PO_TPS-88213.pdf"
+   }
+  ]
+ },
+ "meta": {
+  "model": "gpt-5-mini",
+  "usage": {
+   "prompt_tokens": 3173,
+   "completion_tokens": 2330,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   }
+  },
+  "usd": 0.005453
+ }
+}

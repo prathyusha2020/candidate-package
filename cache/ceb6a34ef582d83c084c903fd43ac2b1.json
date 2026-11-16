@@ -1,0 +1,19 @@
+{
+ "answer": {
+  "classification": "rfq",
+  "needs_review": true,
+  "review_reason": "Attached PDF (AldenMarine_RFQ_AM-26-0412.pdf) is password-protected and could not be opened; customer said password will follow in a separate email, so RFQ line items are unavailable.",
+  "line_items": []
+ },
+ "meta": {
+  "model": "gpt-5-mini",
+  "usage": {
+   "prompt_tokens": 1481,
+   "completion_tokens": 267,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   }
+  },
+  "usd": 0.000904
+ }
+}

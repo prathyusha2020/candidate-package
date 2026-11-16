@@ -1,0 +1,62 @@
+{
+ "answer": {
+  "classification": "rfq",
+  "needs_review": false,
+  "review_reason": null,
+  "line_items": [
+   {
+    "raw": "60 | FT | 1-1/2\" | Pipe, SCH 80, A106B SMLS, PE",
+    "description": "Pipe, 1-1/2\", SCH 80, A106B SMLS, PE",
+    "qty": 60,
+    "uom": "FT",
+    "source": "HM-7716_material_list.csv"
+   },
+   {
+    "raw": "12 | EA | 1-1/2\" | 90 elbow, SW, 3000#, A105",
+    "description": "90 elbow, SW, 3000#, A105, 1-1/2\"",
+    "qty": 12,
+    "uom": "EA",
+    "source": "HM-7716_material_list.csv"
+   },
+   {
+    "raw": "6 | EA | 1-1/2\" | Tee, SW, 3000#, A105",
+    "description": "Tee, SW, 3000#, A105, 1-1/2\"",
+    "qty": 6,
+    "uom": "EA",
+    "source": "HM-7716_material_list.csv"
+   },
+   {
+    "raw": "8 | EA | 1-1/2\" | Union, SW, 3000#, A105",
+    "description": "Union, SW, 3000#, A105, 1-1/2\"",
+    "qty": 8,
+    "uom": "EA",
+    "source": "HM-7716_material_list.csv"
+   },
+   {
+    "raw": "4 | EA | 1-1/2\" | Gate valve, 800#, SW, A105",
+    "description": "Gate valve, SW, 800#, A105, 1-1/2\"",
+    "qty": 4,
+    "uom": "EA",
+    "source": "HM-7716_material_list.csv"
+   },
+   {
+    "raw": "2 | EA | 1-1/2\" | Y-strainer, 800#, SW, A105",
+    "description": "Y-strainer, SW, 800#, A105, 1-1/2\"",
+    "qty": 2,
+    "uom": "EA",
+    "source": "HM-7716_material_list.csv"
+   }
+  ]
+ },
+ "meta": {
+  "model": "gpt-5-mini",
+  "usage": {
+   "prompt_tokens": 1722,
+   "completion_tokens": 1968,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   }
+  },
+  "usd": 0.004366
+ }
+}

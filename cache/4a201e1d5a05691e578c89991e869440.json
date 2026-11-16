@@ -1,0 +1,76 @@
+{
+ "answer": {
+  "classification": "rfq_revision",
+  "needs_review": false,
+  "review_reason": null,
+  "line_items": [
+   {
+    "raw": "1) 20 jts - 2\"",
+    "description": "PIPE — 2\" pipe. All pipe SCH 40 A53B ERW, T&C.",
+    "qty": 20,
+    "uom": "EA",
+    "source": "body"
+   },
+   {
+    "raw": "2) 14 jts - 3\"",
+    "description": "PIPE — 3\" pipe. All pipe SCH 40 A53B ERW, T&C.",
+    "qty": 14,
+    "uom": "EA",
+    "source": "body"
+   },
+   {
+    "raw": "3) 6 jts - 4\"",
+    "description": "PIPE — 4\" pipe. All pipe SCH 40 A53B ERW, T&C.",
+    "qty": 6,
+    "uom": "EA",
+    "source": "body"
+   },
+   {
+    "raw": "4) 12 ea - 2\" 90 ell",
+    "description": "2\" 90 ell. FITTINGS — fittings are 150# malleable iron, black.",
+    "qty": 12,
+    "uom": "EA",
+    "source": "body"
+   },
+   {
+    "raw": "5) 8 ea - 2\" tee",
+    "description": "2\" tee. FITTINGS — fittings are 150# malleable iron, black.",
+    "qty": 8,
+    "uom": "EA",
+    "source": "body"
+   },
+   {
+    "raw": "7) 4 ea - 2\" gate, bronze, 125#",
+    "description": "2\" gate valve, bronze, 125#. VALVES section.",
+    "qty": 4,
+    "uom": "EA",
+    "source": "body"
+   },
+   {
+    "raw": "8) 2 ea - 2\" check, swing, bronze, 125#",
+    "description": "2\" check valve, swing, bronze, 125#. VALVES section.",
+    "qty": 2,
+    "uom": "EA",
+    "source": "body"
+   },
+   {
+    "raw": "9) 4 ea - 2\" ball, bronze, 125#",
+    "description": "2\" ball valve, bronze, 125#. VALVES section. (added per revision)",
+    "qty": 4,
+    "uom": "EA",
+    "source": "body"
+   }
+  ]
+ },
+ "meta": {
+  "model": "gpt-5-mini",
+  "usage": {
+   "prompt_tokens": 1935,
+   "completion_tokens": 1394,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   }
+  },
+  "usd": 0.003272
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "answer": {
+  "classification": "rfq",
+  "needs_review": true,
+  "review_reason": "Customer references a BOM attachment but the attachment is not present in the email provided — cannot extract line items.",
+  "line_items": []
+ },
+ "meta": {
+  "model": "gpt-5-mini",
+  "usage": {
+   "prompt_tokens": 1495,
+   "completion_tokens": 191,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   }
+  },
+  "usd": 0.000756
+ }
+}
