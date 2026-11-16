@@ -27,7 +27,7 @@
    },
    {
     "raw": "32 | Stud bolt, B7, 4-1/2\" long, w/ 2 heavy hex nuts | 3/4\"",
-    "description": "3/4\" stud bolt, B7, 4-1/2\" long, w/ 2 heavy hex nuts",
+    "description": "3/4\" stud bolt, B7, 4-1/2\" long, with 2 heavy hex nuts",
     "qty": 32,
     "uom": "EA",
     "source": "body"
@@ -41,7 +41,7 @@
    },
    {
     "raw": "12 rolls | PTFE thread tape, white, heavy duty | N/A",
-    "description": "PTFE thread tape, white, heavy duty, roll",
+    "description": "PTFE thread tape, white, heavy duty",
     "qty": 12,
     "uom": "RL",
     "source": "body"
@@ -51,12 +51,12 @@
  "meta": {
   "model": "gpt-5-mini",
   "usage": {
-   "prompt_tokens": 1750,
-   "completion_tokens": 1663,
+   "prompt_tokens": 1827,
+   "completion_tokens": 1596,
    "prompt_tokens_details": {
     "cached_tokens": 0
    }
   },
-  "usd": 0.003763
+  "usd": 0.003649
  }
 }

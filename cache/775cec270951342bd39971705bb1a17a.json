@@ -6,7 +6,7 @@
   "line_items": [
    {
     "raw": "MODEL: HV-800-FGS",
-    "description": "2\" forged steel gate valve, CLASS: 800 LB, ENDS: NPT, BODY: A105, TRIM: 13CR, MODEL: HV-800-FGS, Halvorsen Valve Co.",
+    "description": "2\" forged steel gate valve, CLASS 800 LB, NPT ends, BODY A105, TRIM 13CR, model HV-800-FGS",
     "qty": 3,
     "uom": "EA",
     "source": "IMG_4417.jpg"
@@ -16,12 +16,12 @@
  "meta": {
   "model": "gpt-5-mini",
   "usage": {
-   "prompt_tokens": 2332,
-   "completion_tokens": 940,
+   "prompt_tokens": 2409,
+   "completion_tokens": 416,
    "prompt_tokens_details": {
     "cached_tokens": 0
    }
   },
-  "usd": 0.002463
+  "usd": 0.001434
  }
 }

@@ -6,98 +6,98 @@
   "line_items": [
    {
     "raw": "1 7 EA 1/2\" WELD NECK FLANGE, STD BORE",
-    "description": "1/2\" weld neck flange, ASTM A105, 150# RF, STD BORE",
+    "description": "1/2\" weld neck flange, STD BORE, ASTM A105, 150# RF",
     "qty": 7,
     "uom": "EA",
     "source": "RFQ_PF-26-3091.pdf"
    },
    {
     "raw": "2 3 EA 3/4\" WELD NECK FLANGE, STD BORE",
-    "description": "3/4\" weld neck flange, ASTM A105, 150# RF, STD BORE",
+    "description": "3/4\" weld neck flange, STD BORE, ASTM A105, 150# RF",
     "qty": 3,
     "uom": "EA",
     "source": "RFQ_PF-26-3091.pdf"
    },
    {
     "raw": "3 8 EA 1\" WELD NECK FLANGE, STD BORE",
-    "description": "1\" weld neck flange, ASTM A105, 150# RF, STD BORE",
+    "description": "1\" weld neck flange, STD BORE, ASTM A105, 150# RF",
     "qty": 8,
     "uom": "EA",
     "source": "RFQ_PF-26-3091.pdf"
    },
    {
     "raw": "4 4 EA 1-1/4\" WELD NECK FLANGE, STD BORE",
-    "description": "1-1/4\" weld neck flange, ASTM A105, 150# RF, STD BORE",
+    "description": "1-1/4\" weld neck flange, STD BORE, ASTM A105, 150# RF",
     "qty": 4,
     "uom": "EA",
     "source": "RFQ_PF-26-3091.pdf"
    },
    {
     "raw": "5 9 EA 1-1/2\" WELD NECK FLANGE, STD BORE",
-    "description": "1-1/2\" weld neck flange, ASTM A105, 150# RF, STD BORE",
+    "description": "1-1/2\" weld neck flange, STD BORE, ASTM A105, 150# RF",
     "qty": 9,
     "uom": "EA",
     "source": "RFQ_PF-26-3091.pdf"
    },
    {
     "raw": "6 5 EA 2\" WELD NECK FLANGE, STD BORE",
-    "description": "2\" weld neck flange, ASTM A105, 150# RF, STD BORE",
+    "description": "2\" weld neck flange, STD BORE, ASTM A105, 150# RF",
     "qty": 5,
     "uom": "EA",
     "source": "RFQ_PF-26-3091.pdf"
    },
    {
     "raw": "7 10 EA 2-1/2\" WELD NECK FLANGE, STD BORE",
-    "description": "2-1/2\" weld neck flange, ASTM A105, 150# RF, STD BORE",
+    "description": "2-1/2\" weld neck flange, STD BORE, ASTM A105, 150# RF",
     "qty": 10,
     "uom": "EA",
     "source": "RFQ_PF-26-3091.pdf"
    },
    {
     "raw": "8 6 EA 3\" WELD NECK FLANGE, STD BORE",
-    "description": "3\" weld neck flange, ASTM A105, 150# RF, STD BORE",
+    "description": "3\" weld neck flange, STD BORE, ASTM A105, 150# RF",
     "qty": 6,
     "uom": "EA",
     "source": "RFQ_PF-26-3091.pdf"
    },
    {
     "raw": "9 2 EA 4\" WELD NECK FLANGE, STD BORE",
-    "description": "4\" weld neck flange, ASTM A105, 150# RF, STD BORE",
+    "description": "4\" weld neck flange, STD BORE, ASTM A105, 150# RF",
     "qty": 2,
     "uom": "EA",
     "source": "RFQ_PF-26-3091.pdf"
    },
    {
     "raw": "10 7 EA 6\" WELD NECK FLANGE, STD BORE",
-    "description": "6\" weld neck flange, ASTM A105, 150# RF, STD BORE",
+    "description": "6\" weld neck flange, STD BORE, ASTM A105, 150# RF",
     "qty": 7,
     "uom": "EA",
     "source": "RFQ_PF-26-3091.pdf"
    },
    {
     "raw": "11 3 EA 8\" WELD NECK FLANGE, STD BORE",
-    "description": "8\" weld neck flange, ASTM A105, 150# RF, STD BORE",
+    "description": "8\" weld neck flange, STD BORE, ASTM A105, 150# RF",
     "qty": 3,
     "uom": "EA",
     "source": "RFQ_PF-26-3091.pdf"
    },
    {
     "raw": "12 8 EA 10\" WELD NECK FLANGE, STD BORE",
-    "description": "10\" weld neck flange, ASTM A105, 150# RF, STD BORE",
+    "description": "10\" weld neck flange, STD BORE, ASTM A105, 150# RF",
     "qty": 8,
     "uom": "EA",
     "source": "RFQ_PF-26-3091.pdf"
    },
    {
     "raw": "13 4 EA 12\" WELD NECK FLANGE, STD BORE",
-    "description": "12\" weld neck flange, ASTM A105, 150# RF, STD BORE",
+    "description": "12\" weld neck flange, STD BORE, ASTM A105, 150# RF",
     "qty": 4,
     "uom": "EA",
     "source": "RFQ_PF-26-3091.pdf"
    },
    {
     "raw": "14 9 EA 14\" WELD NECK FLANGE, STD BORE",
-    "description": "14\" weld neck flange, ASTM A105, 150# RF, STD BORE",
+    "description": "14\" weld neck flange, STD BORE, ASTM A105, 150# RF",
     "qty": 9,
     "uom": "EA",
     "source": "RFQ_PF-26-3091.pdf"
@@ -317,12 +317,12 @@
  "meta": {
   "model": "gpt-5-mini",
   "usage": {
-   "prompt_tokens": 5202,
-   "completion_tokens": 4812,
+   "prompt_tokens": 5279,
+   "completion_tokens": 3596,
    "prompt_tokens_details": {
     "cached_tokens": 0
    }
   },
-  "usd": 0.010925
+  "usd": 0.008512
  }
 }

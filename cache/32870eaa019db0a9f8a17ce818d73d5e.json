@@ -6,7 +6,7 @@
   "line_items": [
    {
     "raw": "40 | EA | 1/2\"-13 x 2\" hex cap screw, Gr 5 zinc",
-    "description": "1/2\"-13 x 2\" hex cap screw, Gr 5, zinc",
+    "description": "1/2\"-13 x 2\" hex cap screw, Gr 5 zinc",
     "qty": 40,
     "uom": "EA",
     "source": "image002.png"
@@ -27,7 +27,7 @@
    },
    {
     "raw": "3 | BX | 1/2\" channel spring nuts, galv",
-    "description": "1/2\" channel spring nut, galv",
+    "description": "1/2\" channel spring nuts, galv",
     "qty": 3,
     "uom": "BX",
     "source": "image002.png"
@@ -51,12 +51,12 @@
  "meta": {
   "model": "gpt-5-mini",
   "usage": {
-   "prompt_tokens": 1824,
-   "completion_tokens": 1492,
+   "prompt_tokens": 1901,
+   "completion_tokens": 1558,
    "prompt_tokens_details": {
     "cached_tokens": 0
    }
   },
-  "usd": 0.00344
+  "usd": 0.003591
  }
 }

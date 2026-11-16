@@ -34,35 +34,35 @@
    },
    {
     "raw": "24 | 1\" | 90 elbow",
-    "description": "1\" 90 elbow, socket weld fitting, 3000# A105",
+    "description": "1\" socket weld 90 elbow, 3000# A105",
     "qty": 24,
     "uom": "EA",
     "source": "TankFarm_Ph2_Materials.docx"
    },
    {
     "raw": "12 | 1\" | Tee",
-    "description": "1\" tee, socket weld fitting, 3000# A105",
+    "description": "1\" socket weld tee, 3000# A105",
     "qty": 12,
     "uom": "EA",
     "source": "TankFarm_Ph2_Materials.docx"
    },
    {
     "raw": "30 | 3/4\" | Coupling, full",
-    "description": "3/4\" coupling, full, socket weld fitting, 3000# A105",
+    "description": "3/4\" socket weld coupling, full, 3000# A105",
     "qty": 30,
     "uom": "EA",
     "source": "TankFarm_Ph2_Materials.docx"
    },
    {
     "raw": "16 | 1/2\" | Union",
-    "description": "1/2\" union, socket weld fitting, 3000# A105",
+    "description": "1/2\" socket weld union, 3000# A105",
     "qty": 16,
     "uom": "EA",
     "source": "TankFarm_Ph2_Materials.docx"
    },
    {
     "raw": "20 | 2\" | Half coupling",
-    "description": "2\" half coupling, socket weld fitting, 3000# A105",
+    "description": "2\" socket weld half coupling, 3000# A105",
     "qty": 20,
     "uom": "EA",
     "source": "TankFarm_Ph2_Materials.docx"
@@ -72,12 +72,12 @@
  "meta": {
   "model": "gpt-5-mini",
   "usage": {
-   "prompt_tokens": 1771,
-   "completion_tokens": 1890,
+   "prompt_tokens": 1848,
+   "completion_tokens": 1442,
    "prompt_tokens_details": {
     "cached_tokens": 0
    }
   },
-  "usd": 0.004223
+  "usd": 0.003346
  }
 }

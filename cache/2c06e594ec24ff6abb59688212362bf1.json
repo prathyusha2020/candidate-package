@@ -1,8 +1,8 @@
 {
  "answer": {
   "classification": "rfq",
-  "needs_review": true,
-  "review_reason": "Image is mostly readable but line '4 - ,, tee' is missing the inch size; also '6 - 1\" x 4\"' omits the word 'galv nipple' though likely intended—please confirm sizes/descriptions before quoting.",
+  "needs_review": false,
+  "review_reason": null,
   "line_items": [
    {
     "raw": "8 - 2\" galv 90 elbow",
@@ -13,7 +13,7 @@
    },
    {
     "raw": "4 - ,, tee",
-    "description": "tee (size not specified on note)",
+    "description": "2\" galv tee",
     "qty": 4,
     "uom": "EA",
     "source": "IMG_4172.jpeg"
@@ -27,7 +27,7 @@
    },
    {
     "raw": "6 - 1\" x 4\"",
-    "description": "1\" x 4\" galv nipple (nipple word omitted on note but implied by previous line)",
+    "description": "1\" x 4\" galv nipple",
     "qty": 6,
     "uom": "EA",
     "source": "IMG_4172.jpeg"
@@ -48,7 +48,7 @@
    },
    {
     "raw": "5 jts - 2\" galv pipe",
-    "description": "2\" galv pipe",
+    "description": "2\" galv pipe, joints",
     "qty": 5,
     "uom": "EA",
     "source": "IMG_4172.jpeg"
@@ -58,12 +58,12 @@
  "meta": {
   "model": "gpt-5-mini",
   "usage": {
-   "prompt_tokens": 2508,
-   "completion_tokens": 2542,
+   "prompt_tokens": 2585,
+   "completion_tokens": 1584,
    "prompt_tokens_details": {
     "cached_tokens": 0
    }
   },
-  "usd": 0.005711
+  "usd": 0.003814
  }
 }

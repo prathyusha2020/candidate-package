@@ -48,7 +48,7 @@
    },
    {
     "raw": "8) 2 ea - 2\" check, swing, bronze, 125#",
-    "description": "2\" check valve, swing, bronze, 125#",
+    "description": "2\" swing check valve, bronze, 125#",
     "qty": 2,
     "uom": "EA",
     "source": "body"
@@ -65,12 +65,12 @@
  "meta": {
   "model": "gpt-5-mini",
   "usage": {
-   "prompt_tokens": 2120,
-   "completion_tokens": 1610,
+   "prompt_tokens": 2197,
+   "completion_tokens": 1865,
    "prompt_tokens_details": {
-    "cached_tokens": 1408
+    "cached_tokens": 1536
    }
   },
-  "usd": 0.003433
+  "usd": 0.003934
  }
 }

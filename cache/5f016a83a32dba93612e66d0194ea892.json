@@ -6,126 +6,126 @@
   "line_items": [
    {
     "raw": "1 | 420 | FT | 1/2\" | PE",
-    "description": "1/2\" pipe, SCH 80 SMLS, PE",
+    "description": "1/2\" pipe, SCH 80 SMLS, PE ends",
     "qty": 420,
     "uom": "FT",
     "source": "SR-4-117_Unit4_BOM.xlsx"
    },
    {
     "raw": "2 | 300 | FT | 3/4\" | PE",
-    "description": "3/4\" pipe, SCH 80 SMLS, PE",
+    "description": "3/4\" pipe, SCH 80 SMLS, PE ends",
     "qty": 300,
     "uom": "FT",
     "source": "SR-4-117_Unit4_BOM.xlsx"
    },
    {
     "raw": "3 | 600 | FT | 1\" | PE",
-    "description": "1\" pipe, SCH 80 SMLS, PE",
+    "description": "1\" pipe, SCH 80 SMLS, PE ends",
     "qty": 600,
     "uom": "FT",
     "source": "SR-4-117_Unit4_BOM.xlsx"
    },
    {
     "raw": "4 | 240 | FT | 1-1/4\" | PE",
-    "description": "1-1/4\" pipe, SCH 80 SMLS, PE",
+    "description": "1-1/4\" pipe, SCH 80 SMLS, PE ends",
     "qty": 240,
     "uom": "FT",
     "source": "SR-4-117_Unit4_BOM.xlsx"
    },
    {
     "raw": "5 | 360 | FT | 1-1/2\" | PE",
-    "description": "1-1/2\" pipe, SCH 80 SMLS, PE",
+    "description": "1-1/2\" pipe, SCH 80 SMLS, PE ends",
     "qty": 360,
     "uom": "FT",
     "source": "SR-4-117_Unit4_BOM.xlsx"
    },
    {
     "raw": "6 | 500 | FT | 2\" | PE",
-    "description": "2\" pipe, SCH 80 SMLS, PE",
+    "description": "2\" pipe, SCH 80 SMLS, PE ends",
     "qty": 500,
     "uom": "FT",
     "source": "SR-4-117_Unit4_BOM.xlsx"
    },
    {
     "raw": "7 | 180 | FT | 2-1/2\" | PE",
-    "description": "2-1/2\" pipe, SCH 80 SMLS, PE",
+    "description": "2-1/2\" pipe, SCH 80 SMLS, PE ends",
     "qty": 180,
     "uom": "FT",
     "source": "SR-4-117_Unit4_BOM.xlsx"
    },
    {
     "raw": "8 | 320 | FT | 3\" | PE",
-    "description": "3\" pipe, SCH 80 SMLS, PE",
+    "description": "3\" pipe, SCH 80 SMLS, PE ends",
     "qty": 320,
     "uom": "FT",
     "source": "SR-4-117_Unit4_BOM.xlsx"
    },
    {
     "raw": "9 | 140 | FT | 4\" | PE",
-    "description": "4\" pipe, SCH 80 SMLS, PE",
+    "description": "4\" pipe, SCH 80 SMLS, PE ends",
     "qty": 140,
     "uom": "FT",
     "source": "SR-4-117_Unit4_BOM.xlsx"
    },
    {
     "raw": "10 | 80 | FT | 6\" | PE",
-    "description": "6\" pipe, SCH 80 SMLS, PE",
+    "description": "6\" pipe, SCH 80 SMLS, PE ends",
     "qty": 80,
     "uom": "FT",
     "source": "SR-4-117_Unit4_BOM.xlsx"
    },
    {
     "raw": "11 | 120 | FT | 1/2\" | TOE",
-    "description": "1/2\" pipe, SCH 80 SMLS, TOE",
+    "description": "1/2\" pipe, SCH 80 SMLS, TOE ends",
     "qty": 120,
     "uom": "FT",
     "source": "SR-4-117_Unit4_BOM.xlsx"
    },
    {
     "raw": "12 | 160 | FT | 3/4\" | TOE",
-    "description": "3/4\" pipe, SCH 80 SMLS, TOE",
+    "description": "3/4\" pipe, SCH 80 SMLS, TOE ends",
     "qty": 160,
     "uom": "FT",
     "source": "SR-4-117_Unit4_BOM.xlsx"
    },
    {
     "raw": "13 | 200 | FT | 1\" | TOE",
-    "description": "1\" pipe, SCH 80 SMLS, TOE",
+    "description": "1\" pipe, SCH 80 SMLS, TOE ends",
     "qty": 200,
     "uom": "FT",
     "source": "SR-4-117_Unit4_BOM.xlsx"
    },
    {
     "raw": "14 | 100 | FT | 1-1/2\" | TOE",
-    "description": "1-1/2\" pipe, SCH 80 SMLS, TOE",
+    "description": "1-1/2\" pipe, SCH 80 SMLS, TOE ends",
     "qty": 100,
     "uom": "FT",
     "source": "SR-4-117_Unit4_BOM.xlsx"
    },
    {
     "raw": "15 | 140 | FT | 2\" | TOE",
-    "description": "2\" pipe, SCH 80 SMLS, TOE",
+    "description": "2\" pipe, SCH 80 SMLS, TOE ends",
     "qty": 140,
     "uom": "FT",
     "source": "SR-4-117_Unit4_BOM.xlsx"
    },
    {
     "raw": "16 | 60 | FT | 3\" | BE",
-    "description": "3\" pipe, SCH 80 SMLS, BE",
+    "description": "3\" pipe, SCH 80 SMLS, BE ends",
     "qty": 60,
     "uom": "FT",
     "source": "SR-4-117_Unit4_BOM.xlsx"
    },
    {
     "raw": "17 | 40 | FT | 4\" | BE",
-    "description": "4\" pipe, SCH 80 SMLS, BE",
+    "description": "4\" pipe, SCH 80 SMLS, BE ends",
     "qty": 40,
     "uom": "FT",
     "source": "SR-4-117_Unit4_BOM.xlsx"
    },
    {
     "raw": "18 | 20 | FT | 6\" | BE",
-    "description": "6\" pipe, SCH 80 SMLS, BE",
+    "description": "6\" pipe, SCH 80 SMLS, BE ends",
     "qty": 20,
     "uom": "FT",
     "source": "SR-4-117_Unit4_BOM.xlsx"
@@ -359,12 +359,12 @@
  "meta": {
   "model": "gpt-5-mini",
   "usage": {
-   "prompt_tokens": 2472,
-   "completion_tokens": 4751,
+   "prompt_tokens": 2549,
+   "completion_tokens": 5537,
    "prompt_tokens_details": {
     "cached_tokens": 0
    }
   },
-  "usd": 0.01012
+  "usd": 0.011711
  }
 }

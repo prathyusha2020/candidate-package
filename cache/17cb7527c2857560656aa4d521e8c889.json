@@ -30,12 +30,12 @@
  "meta": {
   "model": "gpt-5-mini",
   "usage": {
-   "prompt_tokens": 1953,
-   "completion_tokens": 1247,
+   "prompt_tokens": 2030,
+   "completion_tokens": 1123,
    "prompt_tokens_details": {
-    "cached_tokens": 1408
+    "cached_tokens": 0
    }
   },
-  "usd": 0.002665
+  "usd": 0.002753
  }
 }

@@ -1,0 +1,19 @@
+{
+ "answer": {
+  "classification": "rfq",
+  "needs_review": true,
+  "review_reason": "Attachment 'AldenMarine_RFQ_AM-26-0412.pdf' is password-protected and could not be opened (password to follow in separate email). No line items could be extracted from the unreadable PDF.",
+  "line_items": []
+ },
+ "meta": {
+  "model": "gpt-5-mini",
+  "usage": {
+   "prompt_tokens": 1743,
+   "completion_tokens": 267,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   }
+  },
+  "usd": 0.00097
+ }
+}

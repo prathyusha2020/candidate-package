@@ -1,6 +1,6 @@
 {
  "answer": {
-  "classification": "status_inquiry",
+  "classification": "vendor_quote",
   "needs_review": false,
   "review_reason": null,
   "line_items": []
@@ -8,12 +8,12 @@
  "meta": {
   "model": "gpt-5-mini",
   "usage": {
-   "prompt_tokens": 1835,
-   "completion_tokens": 226,
+   "prompt_tokens": 2025,
+   "completion_tokens": 161,
    "prompt_tokens_details": {
     "cached_tokens": 0
    }
   },
-  "usd": 0.000911
+  "usd": 0.000828
  }
 }

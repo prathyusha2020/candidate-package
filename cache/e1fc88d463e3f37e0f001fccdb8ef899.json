@@ -19,7 +19,7 @@
     "source": "body"
    },
    {
-    "raw": "a couple caps.",
+    "raw": "plus a couple caps.",
     "description": "1/2\" cap, 316 SS, threaded",
     "qty": null,
     "uom": null,
@@ -33,7 +33,7 @@
     "source": "body"
    },
    {
-    "raw": "20 of the 3/4 close nipples",
+    "raw": "20 of the 3/4 close nipples.",
     "description": "3/4\" close nipple, 316 SS, threaded",
     "qty": 20,
     "uom": "EA",
@@ -44,12 +44,12 @@
  "meta": {
   "model": "gpt-5-mini",
   "usage": {
-   "prompt_tokens": 1628,
-   "completion_tokens": 1607,
+   "prompt_tokens": 1705,
+   "completion_tokens": 1888,
    "prompt_tokens_details": {
     "cached_tokens": 0
    }
   },
-  "usd": 0.003621
+  "usd": 0.004202
  }
 }

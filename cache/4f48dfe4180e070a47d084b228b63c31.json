@@ -65,12 +65,12 @@
  "meta": {
   "model": "gpt-5-mini",
   "usage": {
-   "prompt_tokens": 1730,
-   "completion_tokens": 1513,
+   "prompt_tokens": 1807,
+   "completion_tokens": 966,
    "prompt_tokens_details": {
     "cached_tokens": 1408
    }
   },
-  "usd": 0.003142
+  "usd": 0.002067
  }
 }
